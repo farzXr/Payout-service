@@ -1,0 +1,69 @@
+services:
+  app:
+    build: ./docker/app
+    container_name: app
+    restart: unless-stopped
+    working_dir: /app/src
+    volumes:
+      - ./app:/app
+    ports:
+      - "8080:8080"
+    depends_on:
+      db:
+        condition: service_healthy
+      task-broker:
+        condition: service_started
+    networks:
+      - payout-service_network
+
+
+  db:
+    build: ./docker/db
+    container_name: db
+    restart: unless-stopped
+    env_file:
+      - ./docker/db/.env
+    volumes:
+      - db_data:/var/lib/postgres/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - payout-service_network
+
+  task-broker:
+    build: ./docker/task-broker
+    container_name: task-broker
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    networks:
+      - payout-service_network
+
+  worker:
+    build: ./docker/worker
+    container_name: worker
+    restart: unless-stopped
+    working_dir: /worker/src
+    volumes:
+      - ./app/src:/worker/src
+    depends_on:
+      db:
+        condition: service_healthy
+      task-broker:
+        condition: service_started
+    networks:
+      - payout-service_network
+
+
+
+volumes:
+  db_data:
+
+networks:
+  payout-service_network:
+    driver: bridge

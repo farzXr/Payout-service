@@ -1,0 +1,40 @@
+services:
+  test-app:
+    build: ./docker/app
+    container_name: app
+    restart: unless-stopped
+    environment:
+      DATABASE_HOST: test-db
+      CELERY_BROKER_URL: memory://
+      CELERY_TASK_ALWAYS_EAGER: "true"
+    working_dir: /app/src
+    volumes:
+      - ./app:/app
+    depends_on:
+      db:
+        condition: service_healthy
+      task-broker:
+        condition: service_started
+    networks:
+      - payout-service_network
+
+
+  test-db:
+    build: ./docker/db
+    container_name: db
+    restart: unless-stopped
+    env_file:
+      - ./docker/db/.env
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - payout-service_network
+
+networks:
+  payout-service_network:
+    driver: bridge
