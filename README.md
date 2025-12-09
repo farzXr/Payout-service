@@ -27,27 +27,19 @@ git clone <repository-url>
 cd payout-service
 ````
 
-2. Проект использует переменные окружения для сервиса db. Создайте файл .env в корень/docker/db:
-
-```commandline
-POSTGRES_USER=developer
-POSTGRES_PASSWORD=4848
-POSTGRES_DB=payout_db
-```
-
-3. Запускаем сервисы:
+2. Запускаем сервисы:
 
 ```commandline
 docker compose up -d --build
 ```
 
-4. Проверяем, что все сервисы поднялись:
+3. Проверяем, что все сервисы поднялись:
 
 ```commandline
 docker compose ps
 ```
 
-Вы должны увидеть `app`, `db`, `worker` и `task-broker` со статусом `Up`.
+Вы должны увидеть `app`, `db`, `worker` и `task-broker` со статусом `Up` и остальные неважные нам сервисы для мониторинга.
 
 ## Проверка сервисов
 
