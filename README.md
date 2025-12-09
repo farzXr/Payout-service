@@ -101,4 +101,8 @@ curl -X POST http://localhost:8000/api/v1/payouts/ \
 ```commandline
 {BASE_URL}/api/v1/redoc/
 ```
+
+
+ps. 
+Всё в целом отлажено и должно корректно работать
 ---
