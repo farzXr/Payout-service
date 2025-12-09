@@ -96,6 +96,7 @@ curl -X POST http://localhost:8000/api/v1/payouts/ \
 ```
 
 ## Тестирование API через Postman
+Коллекция тестов наших API для запуска одной кнопкой:
 - https://www.postman.com/ren484/workspace/payout-service/collection/42150353-989d3b22-3c7b-4953-b195-4d1be830f7bb?action=share&creator=42150353
 
 ## Документация к API
