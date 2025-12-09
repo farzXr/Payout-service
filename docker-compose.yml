@@ -28,7 +28,7 @@ services:
     ports:
       - "5432:5432"
     healthcheck:
-      test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+      test: [ "CMD-SHELL", "pg_isready -U developer -d payout_db" ]
       interval: 5s
       timeout: 5s
       retries: 5
@@ -48,9 +48,9 @@ services:
     build: ./docker/worker
     container_name: worker
     restart: unless-stopped
-    working_dir: /worker/src
+    working_dir: /app/src
     volumes:
-      - ./app/src:/worker/src
+      - ./app/:/app/
     depends_on:
       db:
         condition: service_healthy
@@ -58,8 +58,6 @@ services:
         condition: service_started
     networks:
       - payout-service_network
-
-
 
 volumes:
   db_data:

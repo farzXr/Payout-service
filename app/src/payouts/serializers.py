@@ -1,12 +1,13 @@
 from rest_framework import serializers
-from .models import Payout, PayoutStatus, Currency
+
+from .models import Currency, Payout, PayoutStatus
 
 
 class PayoutSerializer(serializers.ModelSerializer):
     class Meta:
         model = Payout
-        fields = '__all__'
-        read_only_fields = ('id', 'created_at', 'updated_at', 'status')
+        fields = "__all__"
+        read_only_fields = ("id", "created_at", "updated_at", "status")
 
     def validate_amount(self, value):
         if value <= 0:
@@ -14,7 +15,7 @@ class PayoutSerializer(serializers.ModelSerializer):
         return value
 
     def validate_recipient_details(self, value):
-        if 'account_holder' not in value:
+        if "account_holder" not in value:
             raise serializers.ValidationError("Отсутствует account_holder в реквизитах")
         return value
 

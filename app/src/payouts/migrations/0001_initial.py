@@ -8,27 +8,94 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Payout',
+            name="Payout",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('created_at', models.DateTimeField(auto_now_add=True, db_index=True, verbose_name='Создано')),
-                ('updated_at', models.DateTimeField(auto_now=True, db_index=True, verbose_name='Обновлено')),
-                ('amount', models.DecimalField(decimal_places=2, max_digits=15, validators=[django.core.validators.MinValueValidator(0.01)], verbose_name='Сумма')),
-                ('currency', models.CharField(choices=[('RUB', 'Российский рубль'), ('USD', 'Доллар США'), ('EUR', 'Евро'), ('GBP', 'Фунт стерлингов')], default='RUB', max_length=3, verbose_name='Валюта')),
-                ('recipient_details', models.JSONField(help_text='Данные получателя в формате JSON', verbose_name='Реквизиты получателя')),
-                ('status', models.CharField(choices=[('pending', 'В ожидании'), ('processing', 'В обработке'), ('completed', 'Выполнена'), ('failed', 'Не удалась'), ('cancelled', 'Отменена')], db_index=True, default='pending', max_length=20, verbose_name='Статус')),
-                ('description', models.TextField(blank=True, null=True, verbose_name='Описание')),
-                ('processed_at', models.DateTimeField(blank=True, null=True, verbose_name='Время обработки')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "created_at",
+                    models.DateTimeField(
+                        auto_now_add=True, db_index=True, verbose_name="Создано"
+                    ),
+                ),
+                (
+                    "updated_at",
+                    models.DateTimeField(
+                        auto_now=True, db_index=True, verbose_name="Обновлено"
+                    ),
+                ),
+                (
+                    "amount",
+                    models.DecimalField(
+                        decimal_places=2,
+                        max_digits=15,
+                        validators=[django.core.validators.MinValueValidator(0.01)],
+                        verbose_name="Сумма",
+                    ),
+                ),
+                (
+                    "currency",
+                    models.CharField(
+                        choices=[
+                            ("RUB", "Российский рубль"),
+                            ("USD", "Доллар США"),
+                            ("EUR", "Евро"),
+                            ("GBP", "Фунт стерлингов"),
+                        ],
+                        default="RUB",
+                        max_length=3,
+                        verbose_name="Валюта",
+                    ),
+                ),
+                (
+                    "recipient_details",
+                    models.JSONField(
+                        help_text="Данные получателя в формате JSON",
+                        verbose_name="Реквизиты получателя",
+                    ),
+                ),
+                (
+                    "status",
+                    models.CharField(
+                        choices=[
+                            ("pending", "В ожидании"),
+                            ("processing", "В обработке"),
+                            ("completed", "Выполнена"),
+                            ("failed", "Не удалась"),
+                            ("cancelled", "Отменена"),
+                        ],
+                        db_index=True,
+                        default="pending",
+                        max_length=20,
+                        verbose_name="Статус",
+                    ),
+                ),
+                (
+                    "description",
+                    models.TextField(blank=True, null=True, verbose_name="Описание"),
+                ),
+                (
+                    "processed_at",
+                    models.DateTimeField(
+                        blank=True, null=True, verbose_name="Время обработки"
+                    ),
+                ),
             ],
             options={
-                'verbose_name': 'Выплата',
-                'verbose_name_plural': 'Выплаты',
-                'ordering': ['-created_at'],
+                "verbose_name": "Выплата",
+                "verbose_name_plural": "Выплаты",
+                "ordering": ["-created_at"],
             },
         ),
     ]

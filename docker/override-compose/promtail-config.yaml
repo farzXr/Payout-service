@@ -1,0 +1,21 @@
+server:
+  http_listen_port: 9080
+  grpc_listen_port: 0
+
+positions:
+  filename: /promtail/positions.yaml
+
+clients:
+  - url: http://loki:3100/loki/api/v1/push
+    batchwait: 3s
+    batchsize: 1048576
+    timeout: 10s
+
+scrape_configs:
+- job_name: app-logs
+  static_configs:
+  - targets:
+      - localhost
+    labels:
+      job: app
+      __path__: /app/logs/*.log
