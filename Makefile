@@ -1,4 +1,4 @@
-.PHONY: temp
+.PHONY: help start stop restart clean logs test createsuperuser shell temp
 
 help:
 	@echo "Доступные команды:"
@@ -13,20 +13,20 @@ help:
 	@echo "  shell          - Открыть Django shell в контейнере"
 
 start:
-    docker compose up -d --build
+	docker compose up -d --build
 
 stop:
-	docker-compose down
+	docker compose down
 
 restart:
-	docker-compose restart
+	docker compose restart
 
 clean:
-	docker-compose down -v
+	docker compose down -v
 	docker system prune -f
 
 logs:
-	docker-compose logs -f
+	docker compose logs -f
 
 test:
 	docker exec -it app poetry run python manage.py test payouts
