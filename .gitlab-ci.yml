@@ -3,7 +3,6 @@ stages:
 
 deploy:
   stage: deploy
-  image: docker:latest
   before_script:
     - docker --version
   script:
