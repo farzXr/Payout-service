@@ -3,13 +3,10 @@ stages:
 
 deploy:
   stage: deploy
+  image: docker:latest
+  before_script:
+    - docker --version
   script:
     - echo "Тесты прошли, деплоим продакшен..."
-
-    - docker run hello-world
-
-    - sleep 10
-    - docker compose ps
+    - docker run --rm hello-world
     - echo "Деплой успешно завершен!"
-  only:
-    - master
