@@ -6,6 +6,6 @@ deploy:
   before_script:
     - docker --version
   script:
-    - echo "Тесты прошли, дплом продакшен..."
+    - echo "Тесты прошли, дпом продакшен..."
     - docker run --rm hello-world
     - echo "Деплой успешно завершен!"
