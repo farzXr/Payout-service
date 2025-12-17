@@ -1,0 +1,12 @@
+---
+- name: Установка Docker через репозиторий Ubuntu 22.04
+  hosts: server1-prod
+  become: yes
+
+  tasks:
+    - name: Добавление репозитория Docker
+      copy:
+        src: ./../../gitlab-runner
+        dest: /gitlab-runner
+        owner: ansible
+        force: yes

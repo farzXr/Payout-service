@@ -1,0 +1,28 @@
+- name: Initial server bootstrap
+  hosts: bootstrap
+  gather_facts: false
+
+
+  tasks:
+    - name: Install Python and package (если нет)
+      raw: apt-get update && apt-get install -y \
+        python3 \
+        python3-pip \         
+        python3-apt \
+        python3-simplejson \
+        python3-six \
+        python3-setuptools \
+        python3-yaml \        
+        python3-jinja2
+
+
+      tags: first-setup
+
+    - name: Gather facts
+      setup:
+      tags: install
+
+    - name: Bootstrap Ansible user
+      include_role:
+        name: bootstrap
+      tags: install

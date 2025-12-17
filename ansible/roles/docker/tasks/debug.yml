@@ -1,0 +1,9 @@
+- name: Проверка установки Docker Compose
+  command: docker --version
+  register: docker_version
+  changed_when: false
+
+- name: Вывод версий
+  debug:
+    msg:
+      - "Docker установлен: {{ docker_version.stdout }}"

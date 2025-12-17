@@ -1,0 +1,7 @@
+- name: Set gitlab-runner to prod
+  hosts: prod
+  become: yes
+  become_user: root
+  become_method: sudo
+
+

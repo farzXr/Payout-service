@@ -1,4 +1,4 @@
-.PHONY: help start stop restart clean logs test createsuperuser shell temp
+.PHONY: help start stop restart clean logs test createsuperuser shell
 
 help:
 	@echo "Доступные команды:"
@@ -22,8 +22,7 @@ restart:
 	docker compose restart
 
 clean:
-	docker compose down -v
-	docker system prune -f
+	docker compose down -v && docker system prune -f
 
 logs:
 	docker compose logs -f
