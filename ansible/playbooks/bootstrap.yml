@@ -13,9 +13,11 @@
         python3-six \
         python3-setuptools \
         python3-yaml \        
-        python3-jinja2
+        python3-jinja2 \
+      tags: first-setup
 
-
+    - name: Install python-gitlab via pip3
+      raw: pip3 install python-gitlab --break-system-packages
       tags: first-setup
 
     - name: Gather facts

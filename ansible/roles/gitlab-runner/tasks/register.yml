@@ -1,0 +1,15 @@
+    - name: Add runner configuration to config.toml
+      ansible.builtin.blockinfile:
+        path: /srv/gitlab-runner/config/config.toml
+        block: |
+          [[runners]]
+            name = "main-runner"
+            url = "https://gitlab.com"
+            token = "{{ gitlab_runner_result.runner.token }}"  # Токен из ответа API
+            executor = "shell"
+            [runners.custom_build_dir]
+            [runners.cache]
+              [runners.cache.s3]
+              [runners.cache.gcs]
+        marker: "# {mark} ANSIBLE MANAGED BLOCK - main-runner"
+      notify: Restart GitLab Runner container

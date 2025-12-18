@@ -1,0 +1,10 @@
+    - name: Create runner on GitLab.com via API
+      community.general.gitlab_runner:
+        api_url: "https://gitlab.com"
+        api_token: "{{ vault_secret }}"
+        description: "temp-runner"
+        state: present
+        tag_list: [ ]
+        run_untagged: "true"
+        locked: "false"
+      register: gitlab_runner_result

@@ -14,6 +14,10 @@ help:
 
 all: create_keys
 
+create_pass:
+	@read -s -p "Введите пароль для Vault: " password && echo "$$password" > .vault_pass && chmod 600 .vault_pass
+	@echo "Пароль сохранен в .vault_pass"
+
 create_keys: scripts/keygen.sh
 	chmod +x scripts/keygen.sh
 	./scripts/keygen.sh
@@ -28,6 +32,7 @@ config_ssh: scripts/configssh.sh scripts/config-ssh
 
 install_requirements: requirements.yml
 	ansible-galaxy collection install -r requirements.yml -p ./collections --force
+	ansible-galaxy collection install community.general -p ./collections --force
 
 bootstrap_servers: ./playbooks/bootstrap.yml ./roles/bootstrap/tasks/main.yml
 	ansible-playbook ./playbooks/bootstrap.yml --tags first-setup && \
