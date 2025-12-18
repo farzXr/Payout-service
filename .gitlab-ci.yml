@@ -7,7 +7,6 @@ deploy:
     - docker --version
   script:
     - echo "Тесты прошли, дпом продакшен..."
-    - docker run --rm hello-world
     - echo "Деплой успешно завершен!"
   tags:
     - deploy
