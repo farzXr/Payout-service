@@ -1,15 +1,16 @@
-    - name: Add runner configuration to config.toml
-      ansible.builtin.blockinfile:
-        path: /srv/gitlab-runner/config/config.toml
-        block: |
-          [[runners]]
-            name = "main-runner"
-            url = "https://gitlab.com"
-            token = "{{ gitlab_runner_result.runner.token }}"  # Токен из ответа API
-            executor = "shell"
-            [runners.custom_build_dir]
-            [runners.cache]
-              [runners.cache.s3]
-              [runners.cache.gcs]
-        marker: "# {mark} ANSIBLE MANAGED BLOCK - main-runner"
+    - name: Create runner on GitLab.com via API
+      command: |
+        docker exec gitlab-runner gitlab-runner register \
+          --non-interactive \
+          --url "https://gitlab.com" \
+          --token "{{ runner_token }}" \
+          --executor "docker" \
+          --description "runner-for-payout-service" \
+          --docker-image "docker:latest" \
+          --docker-volumes "/var/run/docker.sock:/var/run/docker.sock" \
+          --docker-volumes "/cache:/cache" \
+          --docker-volumes "/builds:/builds" \
+          --docker-privileged="true" \
+          --docker-pull-policy="always"
+      register: gitlab_runner_result
       notify: Restart GitLab Runner container

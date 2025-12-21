@@ -1,10 +1,15 @@
     - name: Authenticate to Vault using AppRole
       delegate_to: localhost
       run_once: true
-      community.hashi_vault.hashivault_login:
+      community.hashi_vault.vault_login:
         url: https://127.0.0.1:8200
         auth_method: approle
-        role_id: "84023045-e037-cbf4-d811-e4d03c4f4e7b"
+        role_id: "{{ hashicorp-vault_role-id }}"
         secret_id: "{{ vault_secret_id }}"
       register: vault_login
+      no_log: true
+
+    - name: Extract auth-token
+      set_fact:
+        auth_token: "{{ vault_login.login.auth.client_token }}"
       no_log: true

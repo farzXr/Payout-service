@@ -1,5 +1,5 @@
-  handlers:
-    - name: Restart GitLab Runner container
-      community.docker.docker_container:
-        name: gitlab-runner
-        state: restarted
+  - name: Restart GitLab Runner container
+    community.docker.docker_container:
+      name: gitlab-runner
+      state: started
+      restart: yes

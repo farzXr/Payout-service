@@ -52,7 +52,7 @@
 
     - name: Create new runner via API (returns glrt- token)
       uri:
-        url: "https://gitlab.com/api/v4/user/runners"
+        url: "https://gitlab.com/api/v4/projects/user/runners"
         method: POST
         headers:
           PRIVATE-TOKEN: "{{ vault_secret.data.data.data.value }}"
@@ -62,13 +62,14 @@
           description: "auto-runner-{{ ansible_date_time.epoch }}"
           tag_list: []
           run_untagged: true
-          locked: false
-          project_id: "77168352"
+
         status_code: 201
         validate_certs: yes
       register: runner_creation
       delegate_to: localhost
+      check_mode: no
       run_once: true
+      tags: uri
 
     - name: Debug
       debug:
@@ -80,9 +81,12 @@
         docker exec gitlab-runner gitlab-runner register \
           --non-interactive \
           --url "https://gitlab.com" \
-          --token "{{runner_creation.json.token}}" \
+          --token "{{project_info.json.runners_token}}" \
           --executor "docker" \
           --description "runner-for-payout-service" \
+          --tag-list " " \
+          --run-untagged="true" \
+          --locked="false" \
           --docker-image "docker:latest" \
           --docker-volumes "/var/run/docker.sock:/var/run/docker.sock" \
           --docker-volumes "/cache:/cache" \

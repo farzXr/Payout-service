@@ -3,6 +3,13 @@
   become: yes
   become_user: root
   become_method: sudo
+  collections:
+    - community.hashi_vault
+    - community.docker
+    - community.general
+  vars_files:
+    - "{{ playbook_dir }}/../group_vars/all/secrets.yml"
+    - "{{ playbook_dir }}/../group_vars/all/vars.yml"
 
   tasks:
     - name: Create dir for config
@@ -26,5 +33,3 @@
       include_role:
         name: gitlab-runner
       tags: configure
-
-

@@ -1,5 +1,8 @@
 .PHONY: help start stop restart clean logs test createsuperuser shell
 
+VAULT_DIR = ./vault
+ANSIBLE_DIR = ./ansible
+
 help:
 	@echo "Доступные команды:"
 	@echo "  help           - Показать это сообщение"
@@ -35,3 +38,11 @@ createsuperuser:
 
 shell:
 	docker exec -it app poetry run python manage.py shell
+
+deploy:
+    @echo "=== Настройка Vault ==="
+    $(MAKE) -C $(VAULT_DIR) setup
+    @echo "=== Настройка Ansible ==="
+    $(MAKE) -C $(ANSIBLE_DIR) boot_setup
+    @echo "Payout Service развёрнут"
+
