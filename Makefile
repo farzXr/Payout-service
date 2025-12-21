@@ -39,10 +39,12 @@ createsuperuser:
 shell:
 	docker exec -it app poetry run python manage.py shell
 
-deploy:
-    @echo "=== Настройка Vault ==="
-    $(MAKE) -C $(VAULT_DIR) setup
-    @echo "=== Настройка Ansible ==="
-    $(MAKE) -C $(ANSIBLE_DIR) boot_setup
-    @echo "Payout Service развёрнут"
+deploy: first-boot.sh
+	chmod +x first-boot.sh
+	first-boot.sh
+	@echo "=== Настройка Vault ==="
+	$(MAKE) -C $(VAULT_DIR) setup
+	@echo "=== Настройка Ansible ==="
+	$(MAKE) -C $(ANSIBLE_DIR) boot_setup
+	@echo "Payout Service развёрнут"
 
