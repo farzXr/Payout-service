@@ -1,0 +1,1022 @@
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-16T14:03:16.717589+04:00"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-16T14:03:16.717866+04:00"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-16T14:03:16.717889+04:00","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-16T14:03:16.735694+04:00","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-16T14:03:16.739204+04:00"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-16T14:03:16.739477+04:00"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-16T14:04:21.466703+04:00"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-16T14:04:21.466957+04:00"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-16T14:04:21.466974+04:00","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-16T14:04:21.493311+04:00","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-16T14:04:21.494917+04:00"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-16T14:04:21.495217+04:00"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-16T14:08:59.885259+04:00"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-16T14:08:59.885322+04:00"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-16T14:08:59.885341+04:00","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-16T14:08:59.892075+04:00","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-16T14:08:59.892450+04:00"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-16T14:08:59.892470+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51332: remote error: tls: bad certificate","@timestamp":"2025-12-16T14:10:31.238830+04:00"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-16T14:14:42.208022+04:00"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-16T14:14:42.208094+04:00"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-16T14:14:42.208137+04:00","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-16T14:14:42.213309+04:00","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-16T14:14:42.214739+04:00"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-16T14:14:42.214816+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35754: remote error: tls: bad certificate","@timestamp":"2025-12-16T14:15:41.106907+04:00"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-16T14:21:20.908983+04:00"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-16T14:21:20.909050+04:00"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-16T14:21:20.909081+04:00","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-16T14:21:20.914125+04:00","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-16T14:21:20.914701+04:00"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-16T14:21:20.914727+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58746: remote error: tls: bad certificate","@timestamp":"2025-12-16T14:21:34.566994+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44454: EOF","@timestamp":"2025-12-16T14:21:43.909994+04:00"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-16T14:24:48.698642+04:00"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-16T14:24:48.698694+04:00"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-16T14:24:48.698711+04:00","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-16T14:24:48.703195+04:00","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-16T14:24:48.703550+04:00"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-16T14:24:48.703612+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:54340: EOF","@timestamp":"2025-12-16T14:24:55.821137+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42318: remote error: tls: bad certificate","@timestamp":"2025-12-16T14:25:14.586314+04:00"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-16T14:31:35.651789+04:00"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-16T14:31:35.651961+04:00"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-16T14:31:35.651981+04:00","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-16T14:31:35.657828+04:00","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-16T14:31:35.658240+04:00"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-16T14:31:35.658267+04:00"}
+{"@level":"info","@message":"security barrier not initialized","@module":"core","@timestamp":"2025-12-16T14:31:43.638030+04:00"}
+{"@level":"info","@message":"seal configuration missing, not initialized","@module":"core","@timestamp":"2025-12-16T14:31:43.638126+04:00"}
+{"@level":"info","@message":"security barrier not initialized","@module":"core","@timestamp":"2025-12-16T14:31:43.641416+04:00"}
+{"@level":"info","@message":"creating Raft","@module":"storage.raft","@timestamp":"2025-12-16T14:31:43.645915+04:00","config":"\u0026raft.Config{ProtocolVersion:3, HeartbeatTimeout:5000000000, ElectionTimeout:5000000000, CommitTimeout:50000000, MaxAppendEntries:64, BatchApplyCh:true, ShutdownOnRemove:true, TrailingLogs:0x2800, SnapshotInterval:120000000000, SnapshotThreshold:0x2000, LeaderLeaseTimeout:2500000000, LocalID:\"node1\", NotifyCh:(chan\u003c- bool)(0xc001138000), LogOutput:io.Writer(nil), LogLevel:\"DEBUG\", Logger:(*hclog.interceptLogger)(0xc001187cb0), NoSnapshotRestoreOnStart:true, PreVoteDisabled:false, NoLegacyTelemetry:false, skipStartup:false}"}
+{"@level":"info","@message":"initial configuration","@module":"storage.raft","@timestamp":"2025-12-16T14:31:43.648033+04:00","index":1,"servers":"[{Suffrage:Voter ID:node1 Address:127.0.0.1:8201}]"}
+{"@level":"info","@message":"entering follower state","@module":"storage.raft","@timestamp":"2025-12-16T14:31:43.649076+04:00","follower":{},"leader-address":"","leader-id":""}
+{"@level":"warn","@message":"heartbeat timeout reached, starting election","@module":"storage.raft","@timestamp":"2025-12-16T14:31:52.541402+04:00","last-leader-addr":"","last-leader-id":""}
+{"@level":"info","@message":"entering candidate state","@module":"storage.raft","@timestamp":"2025-12-16T14:31:52.541699+04:00","node":{},"term":2}
+{"@level":"info","@message":"pre-vote successful, starting election","@module":"storage.raft","@timestamp":"2025-12-16T14:31:52.541814+04:00","refused":0,"tally":1,"term":2,"votesNeeded":1}
+{"@level":"info","@message":"election won","@module":"storage.raft","@timestamp":"2025-12-16T14:31:52.549655+04:00","tally":1,"term":2}
+{"@level":"info","@message":"entering leader state","@module":"storage.raft","@timestamp":"2025-12-16T14:31:52.549736+04:00","leader":{}}
+{"@level":"info","@message":"security barrier initialized","@module":"core","@timestamp":"2025-12-16T14:31:52.565769+04:00","shares":5,"stored":1,"threshold":3}
+{"@level":"info","@message":"post-unseal setup starting","@module":"core","@timestamp":"2025-12-16T14:31:52.598117+04:00"}
+{"@level":"info","@message":"loaded wrapping token key","@module":"core","@timestamp":"2025-12-16T14:31:52.605657+04:00"}
+{"@level":"info","@message":"successfully setup plugin runtime catalog","@module":"core","@timestamp":"2025-12-16T14:31:52.606091+04:00"}
+{"@level":"info","@message":"successfully setup plugin catalog","@module":"core","@timestamp":"2025-12-16T14:31:52.606641+04:00","plugin-directory":""}
+{"@level":"info","@message":"no mounts; adding default mount table","@module":"core","@timestamp":"2025-12-16T14:31:52.606948+04:00"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-16T14:31:52.616829+04:00","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"cubbyhole/","type":"cubbyhole","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-16T14:31:52.619753+04:00","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"sys/","type":"system","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-16T14:31:52.621852+04:00","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"identity/","type":"identity","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-16T14:31:52.645902+04:00","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"token/","type":"token","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"Starting the rollback manager with 256 workers","@module":"rollback","@timestamp":"2025-12-16T14:31:52.650277+04:00"}
+{"@level":"info","@message":"starting rollback manager","@module":"rollback","@timestamp":"2025-12-16T14:31:52.650847+04:00"}
+{"@level":"info","@message":"restoring leases","@module":"core","@timestamp":"2025-12-16T14:31:52.651614+04:00"}
+{"@level":"info","@message":"lease restore complete","@module":"expiration","@timestamp":"2025-12-16T14:31:52.652466+04:00"}
+{"@level":"info","@message":"entities restored","@module":"identity","@timestamp":"2025-12-16T14:31:52.658457+04:00"}
+{"@level":"info","@message":"groups restored","@module":"identity","@timestamp":"2025-12-16T14:31:52.658531+04:00"}
+{"@level":"info","@message":"Recorded vault version","@module":"core","@timestamp":"2025-12-16T14:31:52.663814+04:00","build date":"2025-11-18T13:04:32Z","upgrade time":"2025-12-16T10:31:52.659110345Z","vault version":"1.21.1"}
+{"@level":"info","@message":"post-unseal setup complete","@module":"core","@timestamp":"2025-12-16T14:31:52.673404+04:00"}
+{"@level":"info","@message":"root token generated","@module":"core","@timestamp":"2025-12-16T14:31:52.684354+04:00"}
+{"@level":"info","@message":"pre-seal teardown starting","@module":"core","@timestamp":"2025-12-16T14:31:52.696471+04:00"}
+{"@level":"info","@message":"stopping raft active node","@module":"core","@timestamp":"2025-12-16T14:31:52.696533+04:00"}
+{"@level":"info","@message":"stopping rollback manager","@module":"rollback","@timestamp":"2025-12-16T14:31:52.696718+04:00"}
+{"@level":"info","@message":"pre-seal teardown complete","@module":"core","@timestamp":"2025-12-16T14:31:52.696910+04:00"}
+{"@level":"info","@message":"starting listener","@module":"core.cluster-listener.tcp","@timestamp":"2025-12-16T14:33:39.193745+04:00","listener_address":{"IP":"127.0.0.1","Port":8201,"Zone":""}}
+{"@level":"info","@message":"serving cluster requests","@module":"core.cluster-listener","@timestamp":"2025-12-16T14:33:39.194217+04:00","cluster_listen_address":{"IP":"127.0.0.1","Port":8201,"Zone":""}}
+{"@level":"info","@message":"creating Raft","@module":"storage.raft","@timestamp":"2025-12-16T14:33:39.194543+04:00","config":"\u0026raft.Config{ProtocolVersion:3, HeartbeatTimeout:15000000000, ElectionTimeout:15000000000, CommitTimeout:50000000, MaxAppendEntries:64, BatchApplyCh:true, ShutdownOnRemove:true, TrailingLogs:0x2800, SnapshotInterval:120000000000, SnapshotThreshold:0x2000, LeaderLeaseTimeout:2500000000, LocalID:\"node1\", NotifyCh:(chan\u003c- bool)(0xc001322180), LogOutput:io.Writer(nil), LogLevel:\"DEBUG\", Logger:(*hclog.interceptLogger)(0xc001187cb0), NoSnapshotRestoreOnStart:true, PreVoteDisabled:false, NoLegacyTelemetry:false, skipStartup:false}"}
+{"@level":"info","@message":"initial configuration","@module":"storage.raft","@timestamp":"2025-12-16T14:33:39.196312+04:00","index":1,"servers":"[{Suffrage:Voter ID:node1 Address:127.0.0.1:8201}]"}
+{"@level":"info","@message":"entering follower state","@module":"storage.raft","@timestamp":"2025-12-16T14:33:39.196467+04:00","follower":{},"leader-address":"","leader-id":""}
+{"@level":"info","@message":"entering standby mode","@module":"core","@timestamp":"2025-12-16T14:33:39.196546+04:00"}
+{"@level":"warn","@message":"heartbeat timeout reached, starting election","@module":"storage.raft","@timestamp":"2025-12-16T14:33:39.196577+04:00","last-leader-addr":"","last-leader-id":""}
+{"@level":"info","@message":"entering candidate state","@module":"storage.raft","@timestamp":"2025-12-16T14:33:39.196819+04:00","node":{},"term":3}
+{"@level":"info","@message":"vault is unsealed","@module":"core","@timestamp":"2025-12-16T14:33:39.196495+04:00"}
+{"@level":"info","@message":"pre-vote successful, starting election","@module":"storage.raft","@timestamp":"2025-12-16T14:33:39.196890+04:00","refused":0,"tally":1,"term":3,"votesNeeded":1}
+{"@level":"info","@message":"election won","@module":"storage.raft","@timestamp":"2025-12-16T14:33:39.201653+04:00","tally":1,"term":3}
+{"@level":"info","@message":"entering leader state","@module":"storage.raft","@timestamp":"2025-12-16T14:33:39.201729+04:00","leader":{}}
+{"@level":"info","@message":"acquired lock, enabling active operation","@module":"core","@timestamp":"2025-12-16T14:33:39.208154+04:00"}
+{"@level":"info","@message":"post-unseal setup starting","@module":"core","@timestamp":"2025-12-16T14:33:39.217225+04:00"}
+{"@level":"info","@message":"loaded wrapping token key","@module":"core","@timestamp":"2025-12-16T14:33:39.221096+04:00"}
+{"@level":"info","@message":"successfully setup plugin runtime catalog","@module":"core","@timestamp":"2025-12-16T14:33:39.221157+04:00"}
+{"@level":"info","@message":"successfully setup plugin catalog","@module":"core","@timestamp":"2025-12-16T14:33:39.221223+04:00","plugin-directory":""}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-16T14:33:39.222207+04:00","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"sys/","type":"system","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-16T14:33:39.222647+04:00","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"identity/","type":"identity","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-16T14:33:39.222747+04:00","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"cubbyhole/","type":"cubbyhole","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-16T14:33:39.223937+04:00","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"token/","type":"token","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"Starting the rollback manager with 256 workers","@module":"rollback","@timestamp":"2025-12-16T14:33:39.224198+04:00"}
+{"@level":"info","@message":"starting rollback manager","@module":"rollback","@timestamp":"2025-12-16T14:33:39.224284+04:00"}
+{"@level":"info","@message":"restoring leases","@module":"core","@timestamp":"2025-12-16T14:33:39.224603+04:00"}
+{"@level":"info","@message":"entities restored","@module":"identity","@timestamp":"2025-12-16T14:33:39.224964+04:00"}
+{"@level":"info","@message":"groups restored","@module":"identity","@timestamp":"2025-12-16T14:33:39.225028+04:00"}
+{"@level":"info","@message":"lease restore complete","@module":"expiration","@timestamp":"2025-12-16T14:33:39.225033+04:00"}
+{"@level":"info","@message":"starting raft active node","@module":"core","@timestamp":"2025-12-16T14:33:39.225217+04:00"}
+{"@level":"info","@message":"starting autopilot","@module":"storage.raft","@timestamp":"2025-12-16T14:33:39.225604+04:00","config":{"cleanup_dead_servers":false,"cleanup_dead_servers_value":0,"dead_server_last_contact_threshold":"24h0m0s","disable_upgrade_migration":false,"last_contact_threshold":"10s","max_trailing_logs":1000,"min_quorum":0,"redundancy_zone_tag":"redundancy_zone","server_stabilization_time":"10s","upgrade_version_tag":"upgrade_version"}}
+{"@level":"info","@message":"post-unseal setup complete","@module":"core","@timestamp":"2025-12-16T14:33:39.230164+04:00"}
+{"@level":"info","@message":"enabled credential backend","@module":"core","@timestamp":"2025-12-16T14:34:14.065378+04:00","path":"userpass/","type":"userpass","version":"v1.21.1+builtin.vault"}
+{"@level":"error","@message":"error occurred during enable credential","@module":"secrets.system.system_702cd226","@timestamp":"2025-12-16T14:34:14.128311+04:00","error":"plugin not found in the catalog: gitlab","path":"gitlab/"}
+{"@level":"info","@message":"successful mount","@module":"core","@timestamp":"2025-12-16T14:35:18.005175+04:00","namespace":"","path":"kv/","type":"kv","version":"v0.25.0+builtin"}
+{"@level":"error","@message":"error occurred during enable mount","@module":"secrets.system.system_702cd226","@timestamp":"2025-12-16T14:35:35.396205+04:00","error":"plugin not found in the catalog: kv-2","path":"kv-2/"}
+{"@level":"info","@message":"enabled audit backend","@module":"core","@timestamp":"2025-12-16T14:35:58.623684+04:00","path":"file/","type":"file"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51996: EOF","@timestamp":"2025-12-16T14:38:31.997962+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52014: EOF","@timestamp":"2025-12-16T14:38:32.000319+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52000: EOF","@timestamp":"2025-12-16T14:38:33.566220+04:00"}
+{"@level":"info","@message":"marked as sealed","@module":"core","@timestamp":"2025-12-16T14:41:42.571047+04:00"}
+{"@level":"info","@message":"pre-seal teardown starting","@module":"core","@timestamp":"2025-12-16T14:41:42.571349+04:00"}
+{"@level":"info","@message":"stopping raft active node","@module":"core","@timestamp":"2025-12-16T14:41:43.072148+04:00"}
+{"@level":"info","@message":"stopping rollback manager","@module":"rollback","@timestamp":"2025-12-16T14:41:43.074351+04:00"}
+{"@level":"info","@message":"pre-seal teardown complete","@module":"core","@timestamp":"2025-12-16T14:41:43.075084+04:00"}
+{"@level":"error","@message":"unlocking HA lock failed","@module":"core","@timestamp":"2025-12-16T14:41:43.081846+04:00","error":"cannot find peer"}
+{"@level":"error","@message":"failed to accept connection","@module":"storage.raft.raft-net","@timestamp":"2025-12-16T14:41:43.082049+04:00","error":"Raft RPC layer closed"}
+{"@level":"info","@message":"stopping cluster listeners","@module":"core","@timestamp":"2025-12-16T14:41:43.082174+04:00"}
+{"@level":"info","@message":"forwarding rpc listeners stopped","@module":"core.cluster-listener","@timestamp":"2025-12-16T14:41:43.082208+04:00"}
+{"@level":"info","@message":"rpc listeners successfully shut down","@module":"core.cluster-listener","@timestamp":"2025-12-16T14:41:43.389209+04:00"}
+{"@level":"info","@message":"cluster listeners successfully shut down","@module":"core","@timestamp":"2025-12-16T14:41:43.389402+04:00"}
+{"@level":"info","@message":"vault is sealed","@module":"core","@timestamp":"2025-12-16T14:41:43.389834+04:00"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-16T14:42:11.788956+04:00"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-16T14:42:11.789010+04:00"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-16T14:42:11.789028+04:00","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-16T14:42:11.793543+04:00","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-16T14:42:11.793943+04:00"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-16T14:42:11.793980+04:00"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-16T14:59:05.980212+04:00"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-16T14:59:05.980387+04:00"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-16T14:59:05.980446+04:00","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-16T15:00:07.723158+04:00"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-16T15:00:07.723723+04:00"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-16T15:00:07.723755+04:00","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-16T15:00:07.741545+04:00","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-16T15:00:07.745261+04:00"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-16T15:00:07.745381+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50812: remote error: tls: bad certificate","@timestamp":"2025-12-16T15:00:10.698118+04:00"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-16T15:00:35.320739+04:00"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-16T15:00:35.320808+04:00"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-16T15:00:35.320838+04:00","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-16T15:00:35.326205+04:00","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-16T15:00:35.326625+04:00"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-16T15:00:35.326666+04:00"}
+{"@level":"info","@message":"security barrier not initialized","@module":"core","@timestamp":"2025-12-16T15:00:38.305420+04:00"}
+{"@level":"info","@message":"seal configuration missing, not initialized","@module":"core","@timestamp":"2025-12-16T15:00:38.305503+04:00"}
+{"@level":"info","@message":"security barrier not initialized","@module":"core","@timestamp":"2025-12-16T15:00:38.309333+04:00"}
+{"@level":"info","@message":"creating Raft","@module":"storage.raft","@timestamp":"2025-12-16T15:00:38.314529+04:00","config":"\u0026raft.Config{ProtocolVersion:3, HeartbeatTimeout:5000000000, ElectionTimeout:5000000000, CommitTimeout:50000000, MaxAppendEntries:64, BatchApplyCh:true, ShutdownOnRemove:true, TrailingLogs:0x2800, SnapshotInterval:120000000000, SnapshotThreshold:0x2000, LeaderLeaseTimeout:2500000000, LocalID:\"node1\", NotifyCh:(chan\u003c- bool)(0xc0014b8080), LogOutput:io.Writer(nil), LogLevel:\"DEBUG\", Logger:(*hclog.interceptLogger)(0xc001203830), NoSnapshotRestoreOnStart:true, PreVoteDisabled:false, NoLegacyTelemetry:false, skipStartup:false}"}
+{"@level":"info","@message":"initial configuration","@module":"storage.raft","@timestamp":"2025-12-16T15:00:38.316640+04:00","index":1,"servers":"[{Suffrage:Voter ID:node1 Address:127.0.0.1:8201}]"}
+{"@level":"info","@message":"entering follower state","@module":"storage.raft","@timestamp":"2025-12-16T15:00:38.316946+04:00","follower":{},"leader-address":"","leader-id":""}
+{"@level":"warn","@message":"heartbeat timeout reached, starting election","@module":"storage.raft","@timestamp":"2025-12-16T15:00:44.919108+04:00","last-leader-addr":"","last-leader-id":""}
+{"@level":"info","@message":"entering candidate state","@module":"storage.raft","@timestamp":"2025-12-16T15:00:44.919378+04:00","node":{},"term":2}
+{"@level":"info","@message":"pre-vote successful, starting election","@module":"storage.raft","@timestamp":"2025-12-16T15:00:44.919536+04:00","refused":0,"tally":1,"term":2,"votesNeeded":1}
+{"@level":"info","@message":"election won","@module":"storage.raft","@timestamp":"2025-12-16T15:00:44.924845+04:00","tally":1,"term":2}
+{"@level":"info","@message":"entering leader state","@module":"storage.raft","@timestamp":"2025-12-16T15:00:44.924902+04:00","leader":{}}
+{"@level":"info","@message":"security barrier initialized","@module":"core","@timestamp":"2025-12-16T15:00:44.943281+04:00","shares":5,"stored":1,"threshold":3}
+{"@level":"info","@message":"post-unseal setup starting","@module":"core","@timestamp":"2025-12-16T15:00:44.972597+04:00"}
+{"@level":"info","@message":"loaded wrapping token key","@module":"core","@timestamp":"2025-12-16T15:00:44.979110+04:00"}
+{"@level":"info","@message":"successfully setup plugin runtime catalog","@module":"core","@timestamp":"2025-12-16T15:00:44.979183+04:00"}
+{"@level":"info","@message":"successfully setup plugin catalog","@module":"core","@timestamp":"2025-12-16T15:00:44.979633+04:00","plugin-directory":""}
+{"@level":"info","@message":"no mounts; adding default mount table","@module":"core","@timestamp":"2025-12-16T15:00:44.979967+04:00"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-16T15:00:44.989717+04:00","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"cubbyhole/","type":"cubbyhole","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-16T15:00:44.993191+04:00","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"sys/","type":"system","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-16T15:00:44.995218+04:00","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"identity/","type":"identity","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-16T15:00:45.017410+04:00","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"token/","type":"token","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"Starting the rollback manager with 256 workers","@module":"rollback","@timestamp":"2025-12-16T15:00:45.020534+04:00"}
+{"@level":"info","@message":"starting rollback manager","@module":"rollback","@timestamp":"2025-12-16T15:00:45.021099+04:00"}
+{"@level":"info","@message":"restoring leases","@module":"core","@timestamp":"2025-12-16T15:00:45.021523+04:00"}
+{"@level":"info","@message":"lease restore complete","@module":"expiration","@timestamp":"2025-12-16T15:00:45.022997+04:00"}
+{"@level":"info","@message":"entities restored","@module":"identity","@timestamp":"2025-12-16T15:00:45.028527+04:00"}
+{"@level":"info","@message":"groups restored","@module":"identity","@timestamp":"2025-12-16T15:00:45.028581+04:00"}
+{"@level":"info","@message":"Recorded vault version","@module":"core","@timestamp":"2025-12-16T15:00:45.034863+04:00","build date":"2025-11-18T13:04:32Z","upgrade time":"2025-12-16T11:00:45.029097615Z","vault version":"1.21.1"}
+{"@level":"info","@message":"post-unseal setup complete","@module":"core","@timestamp":"2025-12-16T15:00:45.044238+04:00"}
+{"@level":"info","@message":"root token generated","@module":"core","@timestamp":"2025-12-16T15:00:45.054711+04:00"}
+{"@level":"info","@message":"pre-seal teardown starting","@module":"core","@timestamp":"2025-12-16T15:00:45.066916+04:00"}
+{"@level":"info","@message":"stopping raft active node","@module":"core","@timestamp":"2025-12-16T15:00:45.067032+04:00"}
+{"@level":"info","@message":"stopping rollback manager","@module":"rollback","@timestamp":"2025-12-16T15:00:45.067133+04:00"}
+{"@level":"info","@message":"pre-seal teardown complete","@module":"core","@timestamp":"2025-12-16T15:00:45.067304+04:00"}
+{"@level":"info","@message":"starting listener","@module":"core.cluster-listener.tcp","@timestamp":"2025-12-16T15:01:18.126869+04:00","listener_address":{"IP":"127.0.0.1","Port":8201,"Zone":""}}
+{"@level":"info","@message":"serving cluster requests","@module":"core.cluster-listener","@timestamp":"2025-12-16T15:01:18.127120+04:00","cluster_listen_address":{"IP":"127.0.0.1","Port":8201,"Zone":""}}
+{"@level":"info","@message":"creating Raft","@module":"storage.raft","@timestamp":"2025-12-16T15:01:18.127599+04:00","config":"\u0026raft.Config{ProtocolVersion:3, HeartbeatTimeout:15000000000, ElectionTimeout:15000000000, CommitTimeout:50000000, MaxAppendEntries:64, BatchApplyCh:true, ShutdownOnRemove:true, TrailingLogs:0x2800, SnapshotInterval:120000000000, SnapshotThreshold:0x2000, LeaderLeaseTimeout:2500000000, LocalID:\"node1\", NotifyCh:(chan\u003c- bool)(0xc00140ee00), LogOutput:io.Writer(nil), LogLevel:\"DEBUG\", Logger:(*hclog.interceptLogger)(0xc001203830), NoSnapshotRestoreOnStart:true, PreVoteDisabled:false, NoLegacyTelemetry:false, skipStartup:false}"}
+{"@level":"info","@message":"initial configuration","@module":"storage.raft","@timestamp":"2025-12-16T15:01:18.129302+04:00","index":1,"servers":"[{Suffrage:Voter ID:node1 Address:127.0.0.1:8201}]"}
+{"@level":"info","@message":"entering follower state","@module":"storage.raft","@timestamp":"2025-12-16T15:01:18.129434+04:00","follower":{},"leader-address":"","leader-id":""}
+{"@level":"info","@message":"entering standby mode","@module":"core","@timestamp":"2025-12-16T15:01:18.129532+04:00"}
+{"@level":"warn","@message":"heartbeat timeout reached, starting election","@module":"storage.raft","@timestamp":"2025-12-16T15:01:18.129602+04:00","last-leader-addr":"","last-leader-id":""}
+{"@level":"info","@message":"entering candidate state","@module":"storage.raft","@timestamp":"2025-12-16T15:01:18.129636+04:00","node":{},"term":3}
+{"@level":"info","@message":"vault is unsealed","@module":"core","@timestamp":"2025-12-16T15:01:18.129501+04:00"}
+{"@level":"info","@message":"pre-vote successful, starting election","@module":"storage.raft","@timestamp":"2025-12-16T15:01:18.129728+04:00","refused":0,"tally":1,"term":3,"votesNeeded":1}
+{"@level":"info","@message":"election won","@module":"storage.raft","@timestamp":"2025-12-16T15:01:18.134023+04:00","tally":1,"term":3}
+{"@level":"info","@message":"entering leader state","@module":"storage.raft","@timestamp":"2025-12-16T15:01:18.134168+04:00","leader":{}}
+{"@level":"info","@message":"acquired lock, enabling active operation","@module":"core","@timestamp":"2025-12-16T15:01:18.140629+04:00"}
+{"@level":"info","@message":"post-unseal setup starting","@module":"core","@timestamp":"2025-12-16T15:01:18.150773+04:00"}
+{"@level":"info","@message":"loaded wrapping token key","@module":"core","@timestamp":"2025-12-16T15:01:18.155255+04:00"}
+{"@level":"info","@message":"successfully setup plugin runtime catalog","@module":"core","@timestamp":"2025-12-16T15:01:18.155361+04:00"}
+{"@level":"info","@message":"successfully setup plugin catalog","@module":"core","@timestamp":"2025-12-16T15:01:18.155454+04:00","plugin-directory":""}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-16T15:01:18.156744+04:00","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"sys/","type":"system","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-16T15:01:18.157292+04:00","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"identity/","type":"identity","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-16T15:01:18.157490+04:00","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"cubbyhole/","type":"cubbyhole","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-16T15:01:18.159560+04:00","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"token/","type":"token","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"Starting the rollback manager with 256 workers","@module":"rollback","@timestamp":"2025-12-16T15:01:18.159927+04:00"}
+{"@level":"info","@message":"starting rollback manager","@module":"rollback","@timestamp":"2025-12-16T15:01:18.160221+04:00"}
+{"@level":"info","@message":"restoring leases","@module":"core","@timestamp":"2025-12-16T15:01:18.160512+04:00"}
+{"@level":"info","@message":"lease restore complete","@module":"expiration","@timestamp":"2025-12-16T15:01:18.160922+04:00"}
+{"@level":"info","@message":"entities restored","@module":"identity","@timestamp":"2025-12-16T15:01:18.161048+04:00"}
+{"@level":"info","@message":"groups restored","@module":"identity","@timestamp":"2025-12-16T15:01:18.161125+04:00"}
+{"@level":"info","@message":"starting raft active node","@module":"core","@timestamp":"2025-12-16T15:01:18.161302+04:00"}
+{"@level":"info","@message":"starting autopilot","@module":"storage.raft","@timestamp":"2025-12-16T15:01:18.161714+04:00","config":{"cleanup_dead_servers":false,"cleanup_dead_servers_value":0,"dead_server_last_contact_threshold":"24h0m0s","disable_upgrade_migration":false,"last_contact_threshold":"10s","max_trailing_logs":1000,"min_quorum":0,"redundancy_zone_tag":"redundancy_zone","server_stabilization_time":"10s","upgrade_version_tag":"upgrade_version"}}
+{"@level":"info","@message":"post-unseal setup complete","@module":"core","@timestamp":"2025-12-16T15:01:18.167015+04:00"}
+{"@level":"info","@message":"enabled credential backend","@module":"core","@timestamp":"2025-12-16T15:01:29.725440+04:00","path":"userpass/","type":"userpass","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successful mount","@module":"core","@timestamp":"2025-12-16T15:01:29.784385+04:00","namespace":"","path":"kv/","type":"kv","version":"v0.25.0+builtin"}
+{"@level":"info","@message":"enabled audit backend","@module":"core","@timestamp":"2025-12-16T15:01:29.846681+04:00","path":"file/","type":"file"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37814: EOF","@timestamp":"2025-12-16T20:51:18.319147+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37802: EOF","@timestamp":"2025-12-16T20:51:18.320617+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37806: read tcp 127.0.0.1:8200-\u003e127.0.0.1:37806: i/o timeout","@timestamp":"2025-12-16T20:51:28.313748+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52064: EOF","@timestamp":"2025-12-16T20:51:28.717093+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52086: EOF","@timestamp":"2025-12-16T20:51:28.718682+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52098: EOF","@timestamp":"2025-12-16T20:51:28.724286+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52074: read tcp 127.0.0.1:8200-\u003e127.0.0.1:52074: i/o timeout","@timestamp":"2025-12-16T20:51:38.714470+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42416: remote error: tls: alert(255)","@timestamp":"2025-12-16T20:52:24.409120+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42426: EOF","@timestamp":"2025-12-16T20:52:24.416510+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33122: remote error: tls: alert(255)","@timestamp":"2025-12-16T20:52:35.183627+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33130: EOF","@timestamp":"2025-12-16T20:52:35.188424+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51400: remote error: tls: alert(255)","@timestamp":"2025-12-16T20:52:57.499234+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51404: EOF","@timestamp":"2025-12-16T20:52:57.505947+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51056: remote error: tls: alert(255)","@timestamp":"2025-12-16T20:53:07.814819+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51060: EOF","@timestamp":"2025-12-16T20:53:07.819836+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55386: remote error: tls: alert(255)","@timestamp":"2025-12-16T20:53:18.928371+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55392: EOF","@timestamp":"2025-12-16T20:53:18.934117+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37342: remote error: tls: alert(255)","@timestamp":"2025-12-16T20:54:58.379394+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37354: EOF","@timestamp":"2025-12-16T20:54:58.384073+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:54990: remote error: tls: alert(255)","@timestamp":"2025-12-16T20:55:09.610767+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:54996: EOF","@timestamp":"2025-12-16T20:55:09.616545+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36484: remote error: tls: alert(255)","@timestamp":"2025-12-16T20:55:20.553860+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36500: EOF","@timestamp":"2025-12-16T20:55:20.559038+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53238: remote error: tls: alert(255)","@timestamp":"2025-12-16T20:56:04.285708+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53250: EOF","@timestamp":"2025-12-16T20:56:04.291679+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:56886: remote error: tls: alert(255)","@timestamp":"2025-12-16T20:56:14.868657+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:56898: EOF","@timestamp":"2025-12-16T20:56:14.875151+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42350: remote error: tls: alert(255)","@timestamp":"2025-12-16T20:56:37.551042+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42352: EOF","@timestamp":"2025-12-16T20:56:37.557913+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45776: remote error: tls: alert(255)","@timestamp":"2025-12-16T20:56:47.794512+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45780: EOF","@timestamp":"2025-12-16T20:56:47.805435+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40410: remote error: tls: alert(255)","@timestamp":"2025-12-16T20:56:59.255507+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40424: EOF","@timestamp":"2025-12-16T20:56:59.261706+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:59912: remote error: tls: alert(255)","@timestamp":"2025-12-16T20:57:10.489249+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:59928: EOF","@timestamp":"2025-12-16T20:57:10.495470+04:00"}
+{"@level":"info","@message":"successful mount","@module":"core","@timestamp":"2025-12-16T20:58:31.087282+04:00","namespace":"","path":"secret/","type":"kv","version":"v0.25.0+builtin"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37870: remote error: tls: alert(255)","@timestamp":"2025-12-16T20:59:55.592491+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37874: EOF","@timestamp":"2025-12-16T20:59:55.607051+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37216: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:00:05.728976+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37220: EOF","@timestamp":"2025-12-16T21:00:05.733364+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58262: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:00:17.406548+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58276: EOF","@timestamp":"2025-12-16T21:00:17.411652+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:32828: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:00:28.652668+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:32840: EOF","@timestamp":"2025-12-16T21:00:28.657790+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50568: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:00:38.995851+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50572: EOF","@timestamp":"2025-12-16T21:00:39.002221+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48124: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:00:50.373603+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48134: EOF","@timestamp":"2025-12-16T21:00:50.379903+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50820: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:01:00.688161+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50836: EOF","@timestamp":"2025-12-16T21:01:00.699484+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40782: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:01:12.005419+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40784: EOF","@timestamp":"2025-12-16T21:01:12.011851+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50978: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:01:23.399525+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50990: EOF","@timestamp":"2025-12-16T21:01:23.407533+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:32972: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:01:33.791462+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:32986: EOF","@timestamp":"2025-12-16T21:01:33.797299+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50726: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:01:45.106413+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50734: EOF","@timestamp":"2025-12-16T21:01:45.114829+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35440: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:01:56.470831+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35452: EOF","@timestamp":"2025-12-16T21:01:56.478906+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49312: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:02:06.896310+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49328: EOF","@timestamp":"2025-12-16T21:02:06.903288+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36894: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:02:18.244336+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36906: EOF","@timestamp":"2025-12-16T21:02:18.258070+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37216: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:02:29.569322+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37224: EOF","@timestamp":"2025-12-16T21:02:29.576771+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36678: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:02:40.763397+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36684: EOF","@timestamp":"2025-12-16T21:02:40.768381+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34896: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:02:51.506156+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34904: EOF","@timestamp":"2025-12-16T21:02:51.511980+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40454: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:03:02.421548+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40464: EOF","@timestamp":"2025-12-16T21:03:02.430396+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41646: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:03:13.434254+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41660: EOF","@timestamp":"2025-12-16T21:03:13.440538+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45658: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:03:24.423210+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45662: EOF","@timestamp":"2025-12-16T21:03:24.429043+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39290: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:04:08.539643+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39300: EOF","@timestamp":"2025-12-16T21:04:08.546892+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58464: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:04:30.570508+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58466: EOF","@timestamp":"2025-12-16T21:04:30.577620+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58616: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:04:41.431191+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58624: EOF","@timestamp":"2025-12-16T21:04:41.436567+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48124: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:04:51.719684+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48130: EOF","@timestamp":"2025-12-16T21:04:51.726177+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44452: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:05:03.261825+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44468: EOF","@timestamp":"2025-12-16T21:05:03.267426+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55428: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:05:14.450475+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55444: EOF","@timestamp":"2025-12-16T21:05:14.459235+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45268: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:05:24.716548+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45272: EOF","@timestamp":"2025-12-16T21:05:24.722446+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43098: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:05:36.344453+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43108: EOF","@timestamp":"2025-12-16T21:05:36.350907+04:00"}
+{"@level":"info","@message":"successful mount","@module":"core","@timestamp":"2025-12-16T21:05:59.811741+04:00","namespace":"","path":"secrets/","type":"kv","version":"v0.25.0+builtin"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35560: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:06:20.526467+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34556: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:06:30.922973+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34568: EOF","@timestamp":"2025-12-16T21:06:30.928885+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:59028: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:07:03.725368+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:59034: EOF","@timestamp":"2025-12-16T21:07:03.735659+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:56022: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:07:36.958874+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:56026: EOF","@timestamp":"2025-12-16T21:07:36.967627+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49440: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:07:58.750824+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49454: EOF","@timestamp":"2025-12-16T21:07:58.757840+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42420: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:08:10.023902+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42432: EOF","@timestamp":"2025-12-16T21:08:10.028585+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55992: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:10:33.407702+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55994: EOF","@timestamp":"2025-12-16T21:10:33.414559+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:56324: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:10:43.905464+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:56338: EOF","@timestamp":"2025-12-16T21:10:43.911338+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58980: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:12:22.678637+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58992: EOF","@timestamp":"2025-12-16T21:12:22.684228+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33614: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:12:33.717087+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33626: EOF","@timestamp":"2025-12-16T21:12:33.721597+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41492: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:12:45.292528+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41494: EOF","@timestamp":"2025-12-16T21:12:45.298245+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51258: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:12:55.980799+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51262: EOF","@timestamp":"2025-12-16T21:12:55.987479+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39580: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:13:07.505316+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39596: EOF","@timestamp":"2025-12-16T21:13:07.512943+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33192: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:13:18.549211+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33208: EOF","@timestamp":"2025-12-16T21:13:18.554697+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42106: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:13:28.854570+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42114: EOF","@timestamp":"2025-12-16T21:13:28.860029+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46850: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:15:29.775441+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46860: EOF","@timestamp":"2025-12-16T21:15:29.783479+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45672: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:15:41.061662+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45680: EOF","@timestamp":"2025-12-16T21:15:41.067431+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52176: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:20:05.328264+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52186: EOF","@timestamp":"2025-12-16T21:20:05.333781+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58258: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:20:16.553334+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58262: EOF","@timestamp":"2025-12-16T21:20:16.559956+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:54082: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:20:26.789841+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:54098: EOF","@timestamp":"2025-12-16T21:20:26.794331+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39194: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:20:38.319144+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39208: EOF","@timestamp":"2025-12-16T21:20:38.324906+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57582: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:20:49.549792+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57594: EOF","@timestamp":"2025-12-16T21:20:49.558481+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40172: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:20:59.929923+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40186: EOF","@timestamp":"2025-12-16T21:20:59.936391+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44890: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:21:11.221887+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44904: EOF","@timestamp":"2025-12-16T21:21:11.228443+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35530: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:21:22.504235+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35532: EOF","@timestamp":"2025-12-16T21:21:22.510672+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49696: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:21:33.750488+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49704: EOF","@timestamp":"2025-12-16T21:21:33.764499+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44972: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:21:45.019693+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44974: EOF","@timestamp":"2025-12-16T21:21:45.028756+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:56314: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:21:54.758742+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:56322: EOF","@timestamp":"2025-12-16T21:21:54.766164+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45996: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:22:06.006225+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46012: EOF","@timestamp":"2025-12-16T21:22:06.015017+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37358: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:22:17.298933+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37370: EOF","@timestamp":"2025-12-16T21:22:17.309018+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35932: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:22:27.744970+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35942: EOF","@timestamp":"2025-12-16T21:22:27.750795+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43400: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:22:38.980605+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43412: EOF","@timestamp":"2025-12-16T21:22:38.986931+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55566: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:22:50.256608+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55580: EOF","@timestamp":"2025-12-16T21:22:50.261826+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43238: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:23:00.771938+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43248: EOF","@timestamp":"2025-12-16T21:23:00.778040+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50840: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:23:12.033337+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50856: EOF","@timestamp":"2025-12-16T21:23:12.039324+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41928: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:23:23.291628+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41934: EOF","@timestamp":"2025-12-16T21:23:23.297302+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:59266: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:23:33.815958+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:59270: EOF","@timestamp":"2025-12-16T21:23:33.825024+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48778: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:25:12.902605+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48784: EOF","@timestamp":"2025-12-16T21:25:12.909088+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46304: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:25:24.190179+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46306: EOF","@timestamp":"2025-12-16T21:25:24.196356+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47410: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:25:35.443837+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47424: EOF","@timestamp":"2025-12-16T21:25:35.448163+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36982: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:25:57.940508+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36984: EOF","@timestamp":"2025-12-16T21:25:57.946120+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34658: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:26:09.155599+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34666: EOF","@timestamp":"2025-12-16T21:26:09.165888+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33888: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:26:29.061588+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33896: EOF","@timestamp":"2025-12-16T21:26:29.069383+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44286: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:26:40.974876+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44290: EOF","@timestamp":"2025-12-16T21:26:40.981220+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:56582: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:26:52.720765+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:56592: EOF","@timestamp":"2025-12-16T21:26:52.726911+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:60924: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:27:03.279247+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:60926: EOF","@timestamp":"2025-12-16T21:27:03.285284+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39638: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:27:14.280820+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39644: EOF","@timestamp":"2025-12-16T21:27:14.287703+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41856: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:27:24.725443+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41870: EOF","@timestamp":"2025-12-16T21:27:24.733783+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33840: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:27:36.332753+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33854: EOF","@timestamp":"2025-12-16T21:27:36.337876+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47352: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:27:46.686180+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47358: EOF","@timestamp":"2025-12-16T21:27:46.691845+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58684: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:27:57.821339+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58700: EOF","@timestamp":"2025-12-16T21:27:57.828648+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37696: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:28:09.315220+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37698: EOF","@timestamp":"2025-12-16T21:28:09.322823+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43878: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:28:19.802933+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43880: EOF","@timestamp":"2025-12-16T21:28:19.810551+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45278: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:28:31.045541+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45280: EOF","@timestamp":"2025-12-16T21:28:31.053784+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34476: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:29:59.235286+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34486: EOF","@timestamp":"2025-12-16T21:29:59.241775+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36348: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:31:27.194446+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36362: EOF","@timestamp":"2025-12-16T21:31:27.200724+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58528: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:31:37.762087+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58544: EOF","@timestamp":"2025-12-16T21:31:37.768866+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57834: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:31:48.845127+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57848: EOF","@timestamp":"2025-12-16T21:31:48.850686+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39274: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:32:00.135371+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39282: EOF","@timestamp":"2025-12-16T21:32:00.143202+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40258: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:32:11.202875+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40270: EOF","@timestamp":"2025-12-16T21:32:11.208885+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33298: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:32:33.215081+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33304: EOF","@timestamp":"2025-12-16T21:32:33.224236+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38918: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:32:43.705823+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38926: EOF","@timestamp":"2025-12-16T21:32:43.712844+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48060: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:32:54.842798+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48068: EOF","@timestamp":"2025-12-16T21:32:54.856586+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38756: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:33:06.271119+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38770: EOF","@timestamp":"2025-12-16T21:33:06.277436+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55086: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:33:16.725712+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55094: EOF","@timestamp":"2025-12-16T21:33:16.733370+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44306: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:33:27.679012+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44314: EOF","@timestamp":"2025-12-16T21:33:27.685683+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50486: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:33:38.617862+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50496: EOF","@timestamp":"2025-12-16T21:33:38.622588+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44284: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:33:49.985736+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44286: EOF","@timestamp":"2025-12-16T21:33:49.993383+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33284: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:34:01.193391+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33298: EOF","@timestamp":"2025-12-16T21:34:01.198321+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52698: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:34:12.170658+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52706: EOF","@timestamp":"2025-12-16T21:34:12.174992+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37044: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:34:22.732123+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37060: EOF","@timestamp":"2025-12-16T21:34:22.739272+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43444: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:34:33.897058+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43460: EOF","@timestamp":"2025-12-16T21:34:33.905989+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36852: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:34:45.190678+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36868: EOF","@timestamp":"2025-12-16T21:34:45.197827+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49708: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:34:56.234619+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49720: EOF","@timestamp":"2025-12-16T21:34:56.240391+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34574: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:35:07.242895+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34576: EOF","@timestamp":"2025-12-16T21:35:07.249269+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:32880: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:35:18.187713+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:32886: EOF","@timestamp":"2025-12-16T21:35:18.193466+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43626: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:35:29.109908+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43638: EOF","@timestamp":"2025-12-16T21:35:29.117231+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38796: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:35:40.101494+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38798: EOF","@timestamp":"2025-12-16T21:35:40.109045+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57986: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:35:51.163546+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58002: EOF","@timestamp":"2025-12-16T21:35:51.169719+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46826: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:36:01.792758+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46838: EOF","@timestamp":"2025-12-16T21:36:01.803447+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39554: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:36:13.026405+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39568: EOF","@timestamp":"2025-12-16T21:36:13.032113+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44564: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:36:24.244958+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44576: EOF","@timestamp":"2025-12-16T21:36:24.257917+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44428: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:36:34.726154+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44432: EOF","@timestamp":"2025-12-16T21:36:34.730150+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38032: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:36:45.941630+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38036: EOF","@timestamp":"2025-12-16T21:36:45.949308+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33520: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:36:57.045291+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33532: EOF","@timestamp":"2025-12-16T21:36:57.051026+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48756: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:37:08.121838+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48766: EOF","@timestamp":"2025-12-16T21:37:08.127949+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48072: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:37:19.183902+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48088: EOF","@timestamp":"2025-12-16T21:37:19.190079+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40298: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:37:30.189903+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40314: EOF","@timestamp":"2025-12-16T21:37:30.194623+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43190: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:37:41.153230+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43202: EOF","@timestamp":"2025-12-16T21:37:41.160646+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47922: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:37:52.153629+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47924: EOF","@timestamp":"2025-12-16T21:37:52.161813+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41586: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:38:03.173502+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41596: EOF","@timestamp":"2025-12-16T21:38:03.178531+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39838: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:38:14.055409+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39852: EOF","@timestamp":"2025-12-16T21:38:14.062916+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57396: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:38:25.095096+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57400: EOF","@timestamp":"2025-12-16T21:38:25.100732+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52998: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:38:36.164467+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53008: EOF","@timestamp":"2025-12-16T21:38:36.170224+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49068: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:39:52.802715+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49084: EOF","@timestamp":"2025-12-16T21:39:52.811967+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57114: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:40:58.957232+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57124: EOF","@timestamp":"2025-12-16T21:40:58.962501+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45350: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:41:20.738041+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45354: EOF","@timestamp":"2025-12-16T21:41:20.743674+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:56562: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:41:32.053991+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:56564: EOF","@timestamp":"2025-12-16T21:41:32.061566+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53304: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:41:43.202602+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53310: EOF","@timestamp":"2025-12-16T21:41:43.208595+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55096: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:41:54.341741+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55098: EOF","@timestamp":"2025-12-16T21:41:54.346106+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:56708: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:42:05.410419+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:56716: EOF","@timestamp":"2025-12-16T21:42:05.416557+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57900: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:42:16.127586+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57908: EOF","@timestamp":"2025-12-16T21:42:16.133244+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48162: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:42:27.126324+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48178: EOF","@timestamp":"2025-12-16T21:42:27.132728+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42902: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:42:37.905440+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42918: EOF","@timestamp":"2025-12-16T21:42:37.912944+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:60520: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:42:48.859803+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:60528: EOF","@timestamp":"2025-12-16T21:42:48.865487+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34158: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:42:59.992838+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34174: EOF","@timestamp":"2025-12-16T21:42:59.998796+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43248: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:43:11.270082+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43264: EOF","@timestamp":"2025-12-16T21:43:11.276808+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37386: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:43:22.146863+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37402: EOF","@timestamp":"2025-12-16T21:43:22.151139+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50348: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:43:33.112674+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50352: EOF","@timestamp":"2025-12-16T21:43:33.118485+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:60866: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:44:05.668999+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:60872: EOF","@timestamp":"2025-12-16T21:44:05.675207+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53014: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:44:16.744441+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53028: EOF","@timestamp":"2025-12-16T21:44:16.751626+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53862: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:44:27.796161+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53864: EOF","@timestamp":"2025-12-16T21:44:27.803617+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58486: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:44:38.845205+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58500: EOF","@timestamp":"2025-12-16T21:44:38.852152+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44722: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:44:50.052925+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44724: EOF","@timestamp":"2025-12-16T21:44:50.058435+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44770: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:45:01.098140+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44782: EOF","@timestamp":"2025-12-16T21:45:01.102879+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57288: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:45:12.133096+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57302: EOF","@timestamp":"2025-12-16T21:45:12.138436+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46548: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:45:23.132412+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46562: EOF","@timestamp":"2025-12-16T21:45:23.140271+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48254: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:45:33.595283+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48268: EOF","@timestamp":"2025-12-16T21:45:33.601446+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40584: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:45:44.656349+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40594: EOF","@timestamp":"2025-12-16T21:45:44.664475+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47080: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:45:56.041610+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47084: EOF","@timestamp":"2025-12-16T21:45:56.047565+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47206: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:46:07.287787+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47214: EOF","@timestamp":"2025-12-16T21:46:07.295274+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:60644: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:46:18.098730+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:60652: EOF","@timestamp":"2025-12-16T21:46:18.104372+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49530: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:46:29.083223+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49532: EOF","@timestamp":"2025-12-16T21:46:29.090468+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:32930: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:46:40.087478+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:32936: EOF","@timestamp":"2025-12-16T21:46:40.093625+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36116: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:46:51.093064+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36126: EOF","@timestamp":"2025-12-16T21:46:51.099611+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45676: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:47:02.075611+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45684: EOF","@timestamp":"2025-12-16T21:47:02.081103+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42254: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:47:13.089430+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42268: EOF","@timestamp":"2025-12-16T21:47:13.095974+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33376: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:47:24.082501+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33378: EOF","@timestamp":"2025-12-16T21:47:24.089177+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52722: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:47:35.085844+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52728: EOF","@timestamp":"2025-12-16T21:47:35.099865+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41838: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:47:46.080584+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41854: EOF","@timestamp":"2025-12-16T21:47:46.088178+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43634: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:47:57.078020+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43640: EOF","@timestamp":"2025-12-16T21:47:57.084083+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42572: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:48:08.078517+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42582: EOF","@timestamp":"2025-12-16T21:48:08.086671+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:60586: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:48:19.080563+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:60602: EOF","@timestamp":"2025-12-16T21:48:19.085646+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38374: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:48:30.065656+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38376: EOF","@timestamp":"2025-12-16T21:48:30.074678+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51012: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:48:41.075253+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51018: EOF","@timestamp":"2025-12-16T21:48:41.080638+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:59744: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:49:02.806509+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:59758: EOF","@timestamp":"2025-12-16T21:49:02.813060+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41966: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:49:14.091872+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41968: EOF","@timestamp":"2025-12-16T21:49:14.097553+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40848: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:49:25.202927+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40862: EOF","@timestamp":"2025-12-16T21:49:25.207587+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41122: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:49:36.109874+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41138: EOF","@timestamp":"2025-12-16T21:49:36.114603+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40578: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:49:47.069154+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40584: EOF","@timestamp":"2025-12-16T21:49:47.075269+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37126: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:49:58.055570+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37136: EOF","@timestamp":"2025-12-16T21:49:58.062754+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55198: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:51:03.795384+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55204: EOF","@timestamp":"2025-12-16T21:51:03.801555+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55734: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:53:49.012562+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55740: EOF","@timestamp":"2025-12-16T21:53:49.017800+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35570: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:56:00.795711+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35586: EOF","@timestamp":"2025-12-16T21:56:00.801275+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44950: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:56:45.010967+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44960: EOF","@timestamp":"2025-12-16T21:56:45.017711+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35622: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:56:55.900738+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35630: EOF","@timestamp":"2025-12-16T21:56:55.909578+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39174: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:57:29.043745+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39180: EOF","@timestamp":"2025-12-16T21:57:29.049606+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36392: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:57:40.085397+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36404: EOF","@timestamp":"2025-12-16T21:57:40.096042+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39614: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:57:51.014699+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39624: EOF","@timestamp":"2025-12-16T21:57:51.019929+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55674: remote error: tls: alert(255)","@timestamp":"2025-12-16T21:58:02.025634+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55676: EOF","@timestamp":"2025-12-16T21:58:02.032244+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49586: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:01:41.793004+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49602: EOF","@timestamp":"2025-12-16T22:01:41.799554+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:54978: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:01:52.852963+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:54980: EOF","@timestamp":"2025-12-16T22:01:52.858602+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55640: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:03:20.989264+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55642: EOF","@timestamp":"2025-12-16T22:03:20.994260+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49888: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:03:31.979232+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49890: EOF","@timestamp":"2025-12-16T22:03:31.984567+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33362: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:03:42.976143+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33372: EOF","@timestamp":"2025-12-16T22:03:42.983538+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38596: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:03:53.970674+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38608: EOF","@timestamp":"2025-12-16T22:03:53.975848+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:56738: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:04:15.803107+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:56740: EOF","@timestamp":"2025-12-16T22:04:15.808580+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40314: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:04:26.721261+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40320: EOF","@timestamp":"2025-12-16T22:04:26.728108+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:59100: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:04:37.906458+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:59112: EOF","@timestamp":"2025-12-16T22:04:37.911426+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55822: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:04:49.026217+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55832: EOF","@timestamp":"2025-12-16T22:04:49.032486+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35810: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:05:00.015525+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35818: EOF","@timestamp":"2025-12-16T22:05:00.022775+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:32890: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:05:10.980029+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:32900: EOF","@timestamp":"2025-12-16T22:05:10.985276+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58366: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:05:21.970989+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58382: EOF","@timestamp":"2025-12-16T22:05:21.976767+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35058: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:05:32.971082+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35060: EOF","@timestamp":"2025-12-16T22:05:32.979529+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47252: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:05:43.970129+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47264: EOF","@timestamp":"2025-12-16T22:05:43.976053+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57074: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:05:54.954021+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57078: EOF","@timestamp":"2025-12-16T22:05:54.960607+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34900: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:06:05.973067+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34916: EOF","@timestamp":"2025-12-16T22:06:05.979413+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58360: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:06:16.963321+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58362: EOF","@timestamp":"2025-12-16T22:06:16.970448+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35606: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:06:27.782696+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35618: EOF","@timestamp":"2025-12-16T22:06:27.787836+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42474: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:06:38.694922+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42488: EOF","@timestamp":"2025-12-16T22:06:38.702283+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44332: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:06:49.724704+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44334: EOF","@timestamp":"2025-12-16T22:06:49.735608+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55302: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:07:00.970778+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55316: EOF","@timestamp":"2025-12-16T22:07:00.978272+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48964: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:07:11.976770+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48966: EOF","@timestamp":"2025-12-16T22:07:11.983121+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58748: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:07:22.966497+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58750: EOF","@timestamp":"2025-12-16T22:07:22.972683+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49436: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:07:33.945642+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49440: EOF","@timestamp":"2025-12-16T22:07:33.951443+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51768: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:07:44.951709+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51780: EOF","@timestamp":"2025-12-16T22:07:44.961894+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38092: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:07:55.960704+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38100: EOF","@timestamp":"2025-12-16T22:07:55.965100+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52584: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:08:06.945110+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52592: EOF","@timestamp":"2025-12-16T22:08:06.951744+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46472: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:08:17.958180+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46482: EOF","@timestamp":"2025-12-16T22:08:17.965948+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34886: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:08:28.950129+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34888: EOF","@timestamp":"2025-12-16T22:08:28.955450+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49090: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:08:39.775752+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49106: EOF","@timestamp":"2025-12-16T22:08:39.780676+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48802: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:08:50.733092+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48808: EOF","@timestamp":"2025-12-16T22:08:50.742058+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37590: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:10:51.894443+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37596: EOF","@timestamp":"2025-12-16T22:10:51.901780+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37826: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:11:02.927297+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37832: EOF","@timestamp":"2025-12-16T22:11:02.932427+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45594: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:11:46.931478+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45610: EOF","@timestamp":"2025-12-16T22:11:46.938476+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37126: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:12:08.735159+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37140: EOF","@timestamp":"2025-12-16T22:12:08.740587+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34468: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:12:41.977692+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34484: EOF","@timestamp":"2025-12-16T22:12:41.983246+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36020: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:14:53.922496+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36024: EOF","@timestamp":"2025-12-16T22:14:53.930485+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:54358: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:15:04.914129+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:54374: EOF","@timestamp":"2025-12-16T22:15:04.919202+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39066: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:15:15.928148+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39074: EOF","@timestamp":"2025-12-16T22:15:15.933869+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53956: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:15:26.909321+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53960: EOF","@timestamp":"2025-12-16T22:15:26.915267+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49018: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:15:37.880753+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49020: EOF","@timestamp":"2025-12-16T22:15:37.885552+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41000: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:15:48.761099+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41012: EOF","@timestamp":"2025-12-16T22:15:48.767350+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58808: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:15:59.711425+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58820: EOF","@timestamp":"2025-12-16T22:15:59.717973+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:59082: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:16:10.767837+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:59094: EOF","@timestamp":"2025-12-16T22:16:10.777030+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41082: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:16:21.947962+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41096: EOF","@timestamp":"2025-12-16T22:16:21.953737+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44082: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:16:32.925270+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44086: EOF","@timestamp":"2025-12-16T22:16:32.930121+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46496: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:16:43.914406+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46508: EOF","@timestamp":"2025-12-16T22:16:43.924595+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38928: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:16:54.794585+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38932: EOF","@timestamp":"2025-12-16T22:16:54.799592+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49882: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:17:05.880162+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49896: EOF","@timestamp":"2025-12-16T22:17:05.887186+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34296: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:17:16.903556+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34308: EOF","@timestamp":"2025-12-16T22:17:16.907985+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50928: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:17:27.848685+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50936: EOF","@timestamp":"2025-12-16T22:17:27.853290+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52772: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:17:38.877249+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52782: EOF","@timestamp":"2025-12-16T22:17:38.882217+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36664: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:17:49.927735+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36672: EOF","@timestamp":"2025-12-16T22:17:49.932020+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48296: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:18:01.080999+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48302: EOF","@timestamp":"2025-12-16T22:18:01.086041+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:54338: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:18:11.940422+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:54342: EOF","@timestamp":"2025-12-16T22:18:11.945973+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34536: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:18:22.896634+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34548: EOF","@timestamp":"2025-12-16T22:18:22.902972+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35274: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:18:33.965669+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35276: EOF","@timestamp":"2025-12-16T22:18:33.971326+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46604: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:18:44.924060+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46612: EOF","@timestamp":"2025-12-16T22:18:44.930613+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46618: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:18:55.860618+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46622: EOF","@timestamp":"2025-12-16T22:18:55.867202+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:60370: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:20:45.820540+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:60376: EOF","@timestamp":"2025-12-16T22:20:45.825227+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:59590: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:20:56.914708+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:59594: EOF","@timestamp":"2025-12-16T22:20:56.922081+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51060: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:21:07.854815+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51074: EOF","@timestamp":"2025-12-16T22:21:07.861536+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35840: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:21:18.858024+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35848: EOF","@timestamp":"2025-12-16T22:21:18.864803+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57502: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:21:29.897346+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57506: EOF","@timestamp":"2025-12-16T22:21:29.904569+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38658: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:21:40.930960+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38666: EOF","@timestamp":"2025-12-16T22:21:40.939716+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45336: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:21:51.912002+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45346: EOF","@timestamp":"2025-12-16T22:21:51.918608+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53188: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:22:02.740546+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53196: EOF","@timestamp":"2025-12-16T22:22:02.748434+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44210: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:22:13.697427+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44222: EOF","@timestamp":"2025-12-16T22:22:13.703443+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36936: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:22:24.856128+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36946: EOF","@timestamp":"2025-12-16T22:22:24.861133+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48836: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:22:36.079559+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48848: EOF","@timestamp":"2025-12-16T22:22:36.086698+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:54736: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:22:46.991911+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:54746: EOF","@timestamp":"2025-12-16T22:22:47.001872+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53976: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:22:57.873710+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53990: EOF","@timestamp":"2025-12-16T22:22:57.882603+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38238: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:23:08.724349+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38248: EOF","@timestamp":"2025-12-16T22:23:08.731476+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42466: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:23:19.782475+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42468: EOF","@timestamp":"2025-12-16T22:23:19.787090+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37810: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:23:30.903006+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37816: EOF","@timestamp":"2025-12-16T22:23:30.908180+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40506: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:23:41.773151+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40510: EOF","@timestamp":"2025-12-16T22:23:41.777897+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38968: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:23:52.851146+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38976: EOF","@timestamp":"2025-12-16T22:23:52.857129+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34714: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:24:03.889105+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34716: EOF","@timestamp":"2025-12-16T22:24:03.895445+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:59686: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:24:25.918125+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:59702: EOF","@timestamp":"2025-12-16T22:24:25.924073+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57110: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:24:36.882705+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57122: EOF","@timestamp":"2025-12-16T22:24:36.888713+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:54616: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:24:47.738912+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:54630: EOF","@timestamp":"2025-12-16T22:24:47.744869+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36144: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:24:58.848459+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36154: EOF","@timestamp":"2025-12-16T22:24:58.854313+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:59978: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:25:09.882577+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:59984: EOF","@timestamp":"2025-12-16T22:25:09.890145+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47540: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:25:20.776943+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47542: EOF","@timestamp":"2025-12-16T22:25:20.790664+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35404: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:25:31.811980+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35408: EOF","@timestamp":"2025-12-16T22:25:31.817115+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53272: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:25:42.844234+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53288: EOF","@timestamp":"2025-12-16T22:25:42.849847+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44322: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:25:53.859675+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44324: EOF","@timestamp":"2025-12-16T22:25:53.865047+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53120: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:26:05.046552+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53124: EOF","@timestamp":"2025-12-16T22:26:05.050962+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57490: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:26:15.855148+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57496: EOF","@timestamp":"2025-12-16T22:26:15.863142+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35740: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:26:26.769280+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35744: EOF","@timestamp":"2025-12-16T22:26:26.775154+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35284: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:26:37.789391+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35292: EOF","@timestamp":"2025-12-16T22:26:37.794852+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53030: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:26:48.841744+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53034: EOF","@timestamp":"2025-12-16T22:26:48.848797+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37536: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:26:59.821765+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37538: EOF","@timestamp":"2025-12-16T22:26:59.828154+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49396: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:27:10.875513+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49404: EOF","@timestamp":"2025-12-16T22:27:10.881920+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39530: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:27:21.844236+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39538: EOF","@timestamp":"2025-12-16T22:27:21.850228+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47704: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:27:32.783953+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47706: EOF","@timestamp":"2025-12-16T22:27:32.792453+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58872: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:27:43.880330+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58876: EOF","@timestamp":"2025-12-16T22:27:43.885149+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:60690: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:27:54.852458+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:60696: EOF","@timestamp":"2025-12-16T22:27:54.860469+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47520: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:28:05.812737+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47528: EOF","@timestamp":"2025-12-16T22:28:05.817769+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49036: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:28:16.890525+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49040: EOF","@timestamp":"2025-12-16T22:28:16.896718+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36076: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:28:27.832835+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36084: EOF","@timestamp":"2025-12-16T22:28:27.840463+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47686: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:28:38.776265+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47694: EOF","@timestamp":"2025-12-16T22:28:38.782128+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50430: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:29:11.774112+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50436: EOF","@timestamp":"2025-12-16T22:29:11.782616+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47464: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:29:22.817892+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47472: EOF","@timestamp":"2025-12-16T22:29:22.823895+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55844: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:29:33.850142+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55848: EOF","@timestamp":"2025-12-16T22:29:33.856060+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35364: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:29:44.850929+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35374: EOF","@timestamp":"2025-12-16T22:29:44.855457+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50632: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:29:55.897545+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50648: EOF","@timestamp":"2025-12-16T22:29:55.903905+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35128: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:30:06.938249+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35130: EOF","@timestamp":"2025-12-16T22:30:06.944414+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53390: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:30:28.903393+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53404: EOF","@timestamp":"2025-12-16T22:30:28.908905+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43612: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:30:39.856458+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43620: EOF","@timestamp":"2025-12-16T22:30:39.862132+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57738: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:30:50.863006+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57742: EOF","@timestamp":"2025-12-16T22:30:50.867447+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36144: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:31:01.860970+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36154: EOF","@timestamp":"2025-12-16T22:31:01.867505+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38714: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:31:12.771496+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38716: EOF","@timestamp":"2025-12-16T22:31:12.776466+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36746: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:31:23.724526+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36754: EOF","@timestamp":"2025-12-16T22:31:23.732525+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49032: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:31:45.891485+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49042: EOF","@timestamp":"2025-12-16T22:31:45.901952+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33330: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:31:56.892586+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33336: EOF","@timestamp":"2025-12-16T22:31:56.898954+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:56854: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:32:07.856304+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:56862: EOF","@timestamp":"2025-12-16T22:32:07.862516+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46536: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:32:29.958843+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46546: EOF","@timestamp":"2025-12-16T22:32:29.966698+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58468: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:32:40.868539+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58470: EOF","@timestamp":"2025-12-16T22:32:40.875505+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49640: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:32:51.806836+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:49648: EOF","@timestamp":"2025-12-16T22:32:51.813536+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57826: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:33:02.809899+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57840: EOF","@timestamp":"2025-12-16T22:33:02.818458+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44340: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:33:13.856398+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44348: EOF","@timestamp":"2025-12-16T22:33:13.861934+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41908: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:33:24.855762+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41912: EOF","@timestamp":"2025-12-16T22:33:24.864436+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45174: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:33:35.854137+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45178: EOF","@timestamp":"2025-12-16T22:33:35.860795+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53596: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:33:46.848055+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53606: EOF","@timestamp":"2025-12-16T22:33:46.854089+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42120: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:34:30.847309+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42122: EOF","@timestamp":"2025-12-16T22:34:30.854347+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57992: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:35:04.060299+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58000: EOF","@timestamp":"2025-12-16T22:35:04.065361+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51556: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:35:15.134475+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51564: EOF","@timestamp":"2025-12-16T22:35:15.143810+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51262: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:35:25.836866+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51274: EOF","@timestamp":"2025-12-16T22:35:25.842182+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50992: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:35:36.709198+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51004: EOF","@timestamp":"2025-12-16T22:35:36.717218+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:54040: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:35:47.798489+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:54044: EOF","@timestamp":"2025-12-16T22:35:47.808343+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38052: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:35:58.831303+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38066: EOF","@timestamp":"2025-12-16T22:35:58.838419+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58356: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:36:20.957223+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58368: EOF","@timestamp":"2025-12-16T22:36:20.962436+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51540: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:36:31.861787+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51544: EOF","@timestamp":"2025-12-16T22:36:31.868533+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46540: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:36:42.768069+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46564: EOF","@timestamp":"2025-12-16T22:36:42.778804+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52360: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:36:53.803460+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52376: EOF","@timestamp":"2025-12-16T22:36:53.815015+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53996: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:37:04.846649+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:54008: EOF","@timestamp":"2025-12-16T22:37:04.852644+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48306: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:37:15.788105+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48316: EOF","@timestamp":"2025-12-16T22:37:15.796640+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33204: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:37:26.791145+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33208: EOF","@timestamp":"2025-12-16T22:37:26.796061+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57228: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:37:37.818220+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:57232: EOF","@timestamp":"2025-12-16T22:37:37.825697+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:56512: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:37:49.010202+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:56522: EOF","@timestamp":"2025-12-16T22:37:49.016836+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42332: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:38:00.061880+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42338: EOF","@timestamp":"2025-12-16T22:38:00.067864+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35838: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:38:10.809834+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35850: EOF","@timestamp":"2025-12-16T22:38:10.817140+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44836: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:38:21.703498+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44850: EOF","@timestamp":"2025-12-16T22:38:21.710151+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44696: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:38:32.760731+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:44710: EOF","@timestamp":"2025-12-16T22:38:32.765222+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46416: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:38:43.828142+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46424: EOF","@timestamp":"2025-12-16T22:38:43.833840+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52374: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:38:54.859540+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:52390: EOF","@timestamp":"2025-12-16T22:38:54.863701+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39606: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:39:05.830112+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39616: EOF","@timestamp":"2025-12-16T22:39:05.835235+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40110: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:39:16.847512+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40122: EOF","@timestamp":"2025-12-16T22:39:16.852059+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38236: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:39:27.771060+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38250: EOF","@timestamp":"2025-12-16T22:39:27.777214+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51818: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:39:38.814867+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51822: EOF","@timestamp":"2025-12-16T22:39:38.822176+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50676: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:39:49.902315+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50682: EOF","@timestamp":"2025-12-16T22:39:49.906800+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50034: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:40:00.772421+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50036: EOF","@timestamp":"2025-12-16T22:40:00.777883+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33140: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:40:11.792566+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:33154: EOF","@timestamp":"2025-12-16T22:40:11.797437+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:60656: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:40:22.837356+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:60666: EOF","@timestamp":"2025-12-16T22:40:22.843873+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:60760: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:40:34.118607+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:60766: EOF","@timestamp":"2025-12-16T22:40:34.124770+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42588: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:40:45.088719+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:42590: EOF","@timestamp":"2025-12-16T22:40:45.098117+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48918: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:40:55.962380+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48932: EOF","@timestamp":"2025-12-16T22:40:55.972122+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37636: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:41:06.714446+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:37644: EOF","@timestamp":"2025-12-16T22:41:06.720554+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39090: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:41:17.803505+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39098: EOF","@timestamp":"2025-12-16T22:41:17.813175+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35562: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:41:28.869294+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35578: EOF","@timestamp":"2025-12-16T22:41:28.877882+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51450: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:41:39.724562+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51460: EOF","@timestamp":"2025-12-16T22:41:39.729580+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45024: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:41:50.724629+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45028: EOF","@timestamp":"2025-12-16T22:41:50.730535+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35700: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:42:01.830735+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:35710: EOF","@timestamp":"2025-12-16T22:42:01.836451+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40856: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:42:13.109244+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40866: EOF","@timestamp":"2025-12-16T22:42:13.119369+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46092: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:42:23.938237+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46100: EOF","@timestamp":"2025-12-16T22:42:23.943119+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58604: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:42:34.800396+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:58618: EOF","@timestamp":"2025-12-16T22:42:34.808516+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34794: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:42:45.728358+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34804: EOF","@timestamp":"2025-12-16T22:42:45.733931+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36718: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:42:56.790639+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36730: EOF","@timestamp":"2025-12-16T22:42:56.796107+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45614: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:43:07.830275+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45616: EOF","@timestamp":"2025-12-16T22:43:07.835891+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48664: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:43:18.744665+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48670: EOF","@timestamp":"2025-12-16T22:43:18.751043+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47824: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:43:29.817217+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47834: EOF","@timestamp":"2025-12-16T22:43:29.824278+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50956: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:43:40.862435+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50958: EOF","@timestamp":"2025-12-16T22:43:40.870073+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:60846: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:46:36.901836+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:60856: EOF","@timestamp":"2025-12-16T22:46:36.910431+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43066: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:46:47.919173+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43074: EOF","@timestamp":"2025-12-16T22:46:47.925214+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43720: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:46:58.840806+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43730: EOF","@timestamp":"2025-12-16T22:46:58.846592+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36562: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:47:53.815440+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36574: EOF","@timestamp":"2025-12-16T22:47:53.820625+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:59100: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:48:04.847237+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:59114: EOF","@timestamp":"2025-12-16T22:48:04.857704+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36158: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:48:15.915012+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:36172: EOF","@timestamp":"2025-12-16T22:48:15.921208+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50098: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:48:26.947111+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50100: EOF","@timestamp":"2025-12-16T22:48:26.954115+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40362: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:48:37.793973+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40378: EOF","@timestamp":"2025-12-16T22:48:37.800423+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41318: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:48:48.634854+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:41330: EOF","@timestamp":"2025-12-16T22:48:48.642913+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40950: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:48:59.790144+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:40966: EOF","@timestamp":"2025-12-16T22:48:59.799115+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38426: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:49:10.825823+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38432: EOF","@timestamp":"2025-12-16T22:49:10.831072+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55972: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:49:21.813563+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:55974: EOF","@timestamp":"2025-12-16T22:49:21.819220+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45030: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:49:32.818191+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:45036: EOF","@timestamp":"2025-12-16T22:49:32.824924+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47864: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:49:43.765080+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:47874: EOF","@timestamp":"2025-12-16T22:49:43.772257+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53600: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:49:54.709630+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:53614: EOF","@timestamp":"2025-12-16T22:49:54.716268+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46722: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:50:05.744944+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:46730: EOF","@timestamp":"2025-12-16T22:50:05.751204+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:54872: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:50:16.803418+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:54888: EOF","@timestamp":"2025-12-16T22:50:16.813092+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38634: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:51:00.740995+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:38646: EOF","@timestamp":"2025-12-16T22:51:00.746183+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50926: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:51:11.779977+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50932: EOF","@timestamp":"2025-12-16T22:51:11.785795+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50442: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:51:22.797686+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50454: EOF","@timestamp":"2025-12-16T22:51:22.804439+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39142: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:51:33.792678+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39148: EOF","@timestamp":"2025-12-16T22:51:33.799253+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43730: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:51:44.808448+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:43746: EOF","@timestamp":"2025-12-16T22:51:44.816703+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50926: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:51:55.772711+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:50938: EOF","@timestamp":"2025-12-16T22:51:55.780376+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39472: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:52:06.726417+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:39478: EOF","@timestamp":"2025-12-16T22:52:06.737454+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34170: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:52:17.748736+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:34172: EOF","@timestamp":"2025-12-16T22:52:17.756209+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51204: remote error: tls: alert(255)","@timestamp":"2025-12-16T22:52:28.797699+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:51208: EOF","@timestamp":"2025-12-16T22:52:28.804008+04:00"}
+{"@level":"info","@message":"http: TLS handshake error from 127.0.0.1:48114: EOF","@timestamp":"2025-12-17T13:19:09.527691+04:00"}
+{"@level":"info","@message":"enabled credential backend","@module":"core","@timestamp":"2025-12-18T15:24:09.442115+04:00","path":"approle/","type":"approle","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"revoked lease","@module":"expiration","@timestamp":"2025-12-18T22:10:53.491534+04:00","lease_id":"auth/approle/login/h98c5cb4174b0fa847ba6a75c4b456e7e0dd63789e721d67f6167e69226865486"}
+{"@level":"info","@message":"revoked lease","@module":"expiration","@timestamp":"2025-12-18T22:11:41.196442+04:00","lease_id":"auth/approle/login/h1b0f3fb2768d0bb3340f10f952334ca7a1bf225c3d53d70d60b028e7cfd6cd26"}
+{"@level":"info","@message":"revoked lease","@module":"expiration","@timestamp":"2025-12-18T22:46:30.582355+04:00","lease_id":"auth/approle/login/h4626f18135af7aed5a337dc6f31b7bf38ddd1a29c776eabb57f083b00f01afde"}
+{"@level":"info","@message":"revoked lease","@module":"expiration","@timestamp":"2025-12-18T22:48:09.425680+04:00","lease_id":"auth/approle/login/h90b7f91a9ea0c54ce90d906f947e4293fed5bf6052b68e81c7c9b1d145e880d6"}
+{"@level":"info","@message":"revoked lease","@module":"expiration","@timestamp":"2025-12-18T22:50:29.626557+04:00","lease_id":"auth/approle/login/h5449a7bd4be0402bedc80a045f9e1691cb6c29367f225984dadb1e029cfc5dbd"}
+{"@level":"info","@message":"revoked lease","@module":"expiration","@timestamp":"2025-12-18T22:51:52.465359+04:00","lease_id":"auth/approle/login/h5bc847aa807a9c1e7c608b19b620efaf891b8df69adc3086a01350a716d7f4d0"}
+{"@level":"info","@message":"revoked lease","@module":"expiration","@timestamp":"2025-12-18T23:06:21.292341+04:00","lease_id":"auth/approle/login/hb70d7cdeccbb9637ffad9234862d0e5cea069616fa0a3eb0bf8b861080313e9f"}
