@@ -10,7 +10,7 @@ lint:
     - docker-compose -f docker-compose.test.yml up -d --build > /dev/null 2>&1
     - sleep 15
 
-    - docker exec app poetry run autoflake . --config pyproject.toml
+    - docker exec app poetry run autoflake . --config ../pyproject.toml
 
     - docker exec app poetry run isort .
 
