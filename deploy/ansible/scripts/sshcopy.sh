@@ -30,7 +30,7 @@ for ((i=1; i<=$COUNT; i++)); do
     # Если есть и пользователь и сервер - работаем
     if [ -n "$SERVER_VALUE" ]; then
         echo "Сервер $i: root@$SERVER_VALUE"
-        #echo "Пароль $i: $PASSWORD_VALUE"
+        echo "Пароль $i: $PASSWORD_VALUE"
 
 
         # Если нет пароля - спрашиваем
@@ -40,6 +40,7 @@ for ((i=1; i<=$COUNT; i++)); do
         fi
 
         echo "Копируем ключ..."
+        sleep 5
         sshpass -p "$PASSWORD_VALUE" ssh-copy-id -i files/root_id_rsa root@$SERVER_VALUE
         ssh-keyscan -H "$SERVER_VALUE" >> ~/.ssh/known_hosts
         echo "Готово!"

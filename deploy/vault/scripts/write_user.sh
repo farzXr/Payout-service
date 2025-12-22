@@ -4,11 +4,15 @@ ENV_FILE="./../ansible/scripts/.env"
 
 vault write auth/userpass/users/need-script \
   password=123 \
-  policies=developer \
-  ttl=1
+  policies=admin \
+  ttl=1440
+
 
 USER_TOKEN=$(vault write -format=json auth/userpass/login/need-script \
-  password="$password" | jq -r '.auth.client_token')
+      password=123 | jq -r '.auth.client_token')
+
+
+echo "Токен получен: ${USER_TOKEN:0:20}..."
 
 cat > "$ENV_FILE" << EOF
 HASHICORP_VAULT_TOKEN=$USER_TOKEN

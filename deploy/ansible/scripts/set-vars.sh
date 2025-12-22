@@ -15,7 +15,7 @@ EOF
 echo "Файл $VARS_FILE создан успешно."
 
 echo ""
-echo "=== Настройка пароля для ansible-vault ==="
+echo "=== Настройка пароля для ansible-vault (придумайте сами) ==="
 read -s -p "Введите пароль для ansible-vault: " vault_password
 echo "$vault_password" > "$VAULT_PASS_FILE"
 chmod 600 "$VAULT_PASS_FILE"

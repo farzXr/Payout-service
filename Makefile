@@ -44,6 +44,11 @@ deploy: ./first-boot.sh
 	./first-boot.sh
 	docker compose -f docker-compose.deploy.yml up -d --build && sleep 5 &&\
 	docker compose -f docker-compose.deploy.yml exec -it vault make setup
+	docker compose -f docker-compose.deploy.yml exec -it ansible make boot_setup
 	docker compose -f docker-compose.deploy.yml exec -it ansible make setup
+
+reset_deploy:
+	docker compose -f docker-compose.deploy.yml down && \
+	rm -rf ./deploy/vault/data
 
 
