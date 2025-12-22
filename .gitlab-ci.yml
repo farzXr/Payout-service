@@ -10,13 +10,13 @@ lint:
     - docker-compose -f docker-compose.test.yml up -d --build
     - sleep 15
 
-    - docker exec -T app poetry run black --check .
+    - docker exec app poetry run black --check .
 
-    - docker exec -T app poetry run flake8 .
+    - docker exec app poetry run flake8 .
 
-    - docker exec -T app poetry run mypy . --config-file mypy.ini || true
+    - docker exec app poetry run mypy . --config-file mypy.ini || true
 
-    - docker exec -T app poetry run isort --check-only .
+    - docker exec app poetry run isort --check-only .
   after_script:
     - docker-compose -f docker-compose.test.yml down
   rules:
