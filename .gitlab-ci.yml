@@ -7,19 +7,17 @@ lint:
     - echo "Проверяем код линтерами..."
     - docker --version
   script:
-    - docker-compose -f docker-compose.test.yml up -d --build  --quiet-pull
-
+    - docker-compose -f docker-compose.test.yml up -d --build > /dev/null 2>&1
     - sleep 15
 
-    - docker exec app poetry run black .
+    - docker exec app poetry run autoflake . --config pyproject.toml
+
     - docker exec app poetry run isort .
 
+    - docker exec app poetry run black .
+
     - docker exec app poetry run black --check .
-
     - docker exec app poetry run flake8 .
-
     - docker exec app poetry run mypy .
-
-    - echo "✅ Проверки завершены"
   after_script:
     - docker-compose -f docker-compose.test.yml down

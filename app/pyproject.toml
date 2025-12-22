@@ -20,9 +20,25 @@ drf-spectacular = "^0.29.0"
 isort = "^7.0.0"
 prometheus-client = "^0.23.1"
 django-prometheus = "^2.4.1"
+autoflake = "^2.3.1"
 
 [tool.poetry.dev-dependencies]
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.autoflake]
+in-place = true
+recursive = true
+remove-all-unused-imports = true
+remove-unused-variables = true
+remove-duplicate-keys = true
+ignore-init-module-imports = false
+exclude = [
+  "**/__pycache__/**",
+  "**/.git/**",
+  "**/*.pyi",
+  "**/migrations/**",
+  "tests/**"
+]
