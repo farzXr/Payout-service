@@ -23,12 +23,12 @@ echo "Пароль сохранен в $VAULT_PASS_FILE"
 
 echo ""
 echo "=== Шифрование файла secrets.yml ==="
-ansible-vault encrypt "$SECRETS_FILE" --vault-password-file="$VAULT_PASS_FILE"
+ansible-vault encrypt "$SECRETS_FILE" --encrypt-vault-id=default --vault-password-file="$VAULT_PASS_FILE"
 
 echo ""
 echo "=== Создание файла .env ==="
 read -p "Введите ip целевого сервера: " ip_server
-cat > "$ENV_FILE" << EOF
+cat >> "$ENV_FILE" << EOF
 SSH_SERVER_1=$ip_server
 EOF
 cat >> "$VARS_FILE" << EOF

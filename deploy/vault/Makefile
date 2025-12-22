@@ -53,8 +53,7 @@ first_login:
 	vault login $$ROOT_TOKEN
 
 enable_audit:
-    mkdir -p ./logs/audit.log
-	vault audit enable file file_path=./logs/audit.log
+	vault audit enable file file_path=/deploy/vault/logs/audit.log
 
 enable_auth:
 	vault auth enable userpass
@@ -80,7 +79,7 @@ write_user: ./scripts/write_user.sh
 	chmod +x ./scripts/write_user.sh
 	./scripts/write_user.sh
 
-setup: init_vault unseal_vault first_login enable_auth enable_secrets enable_audit write_policies write_approle set_secrets write_user
+setup: init_vault unseal_vault first_login enable_auth enable_secrets write_policies write_approle set_secrets write_user
 	@echo "Настройка Vault завершена!"
 
 default: setup

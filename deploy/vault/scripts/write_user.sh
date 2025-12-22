@@ -1,5 +1,21 @@
 #!/bin/sh
 
+ENV_FILE="./../ansible/scripts/.env"
+
+vault write auth/userpass/users/need-script \
+  password=123 \
+  policies=developer \
+  ttl=1
+
+USER_TOKEN=$(vault write -format=json auth/userpass/login/need-script \
+  password="$password" | jq -r '.auth.client_token')
+
+cat > "$ENV_FILE" << EOF
+HASHICORP_VAULT_TOKEN=$USER_TOKEN
+EOF
+
+
+
 echo "Первым лучше создать админа"
 
 read -p "Введите имя пользователя: " username

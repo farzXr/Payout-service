@@ -69,9 +69,9 @@ bootstrap_servers: ./playbooks/bootstrap.yml ./roles/bootstrap/tasks/main.yml
 gitlab_runner: ./playbooks/runner.yml ./roles/gitlab-runner/tasks/main.yml ./group_vars/all/secrets.yml ./group_vars/all/vars.yml
 	ansible-playbook ./playbooks/runner.yml
 
-boot_setup: create_keys ssh_copy install_requirements bootstrap_servers
+boot_setup: create_keys ssh_copy bootstrap_servers
 
-full_setup: set_vars boot_setup gitlab_runner
+setup: set_vars boot_setup gitlab_runner
 	@echo "Полная настройка завершена!"
 	@echo "Все системы готовы к работе."
 

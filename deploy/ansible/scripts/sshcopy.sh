@@ -11,7 +11,7 @@ read -p "Сколько серверов? (по умолчанию 1): " COUNT
 COUNT=${COUNT:-1}
 
 
-VAULT_TOKEN=" hvs.FU4qrTWjHjsVkUzejE9sWoKQ"
+VAULT_TOKEN=$HASHICORP_VAULT_TOKEN
 VAULT_ADDR="http://vault:8200"
 
 for ((i=1; i<=$COUNT; i++)); do
@@ -30,7 +30,7 @@ for ((i=1; i<=$COUNT; i++)); do
     # Если есть и пользователь и сервер - работаем
     if [ -n "$SERVER_VALUE" ]; then
         echo "Сервер $i: root@$SERVER_VALUE"
-        echo "Пароль $i: $PASSWORD_VALUE"
+        #echo "Пароль $i: $PASSWORD_VALUE"
 
 
         # Если нет пароля - спрашиваем
@@ -40,7 +40,8 @@ for ((i=1; i<=$COUNT; i++)); do
         fi
 
         echo "Копируем ключ..."
-        sshpass -p "$PASSWORD_VALUE" ssh-copy-id -i files/root_id_rsa root@$SERVER_VALUE 2>&1
+        sshpass -p "$PASSWORD_VALUE" ssh-copy-id -i files/root_id_rsa root@$SERVER_VALUE
+        ssh-keyscan -H "$SERVER_VALUE" >> ~/.ssh/known_hosts
         echo "Готово!"
         echo
     else
