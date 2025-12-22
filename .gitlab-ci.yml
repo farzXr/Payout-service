@@ -31,9 +31,9 @@ test:
     - docker --version
     - docker-compose --version
   script:
-    - docker-compose -f docker-compose.test.yml up -d --build
+    - docker-compose -f docker-compose.test.yml up -d --build > /dev/null 2>&1
     - sleep 10
-    - docker exec -T app poetry run python manage.py test payouts
+    - docker exec app poetry run python manage.py test payouts
   after_script:
     - docker-compose -f docker-compose.test.yml down
   artifacts:
