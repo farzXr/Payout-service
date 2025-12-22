@@ -1,3 +1,6 @@
+stages:
+  - lint
+
 lint:
   stage: lint
   before_script:
@@ -7,14 +10,12 @@ lint:
     - docker-compose -f docker-compose.test.yml up -d --build
     - sleep 15
 
-    # 1. Сначала автоматически форматируем
     - docker exec app poetry run black .
-    
-    # 2. Затем проверяем, что все ок (должно пройти)
+
     - docker exec app poetry run black --check .
-    
+
     - docker exec app poetry run flake8 .
-    - docker exec app poetry run mypy . --config-file mypy.ini || true
-    - docker exec app poetry run isort --check-only .
+    - docker exec app poetry run mypy .
+    - docker exec app poetry run isort .
   after_script:
     - docker-compose -f docker-compose.test.yml down
