@@ -1,0 +1,43 @@
+services:
+
+  ansible:
+    build: ./docker/deploy/ansible
+    container_name: ansible
+    restart: unless-stopped
+    working_dir: /ansible
+    volumes:
+      - ./deploy/ansible:/ansible
+    depends_on:
+      - vault
+    networks:
+      - payout-service_deploy_network
+    command: ["sleep", "infinity"]
+
+  vault:
+    build: ./docker/deploy/vault
+    container_name: vault
+    working_dir: /deploy/vault
+    hostname: vault
+    volumes:
+      - ./deploy:/deploy
+      - data_vault:/vault/data
+    environment:
+      - VAULT_ADDR=http://vault:8200
+      - VAULT_API_ADDR=http://vault:8200
+    #command: ["server", "-config=/deploy/vault/configs/config.hcl"]
+    command: ["sleep", "infinity"]
+    ports:
+      - "8200:8200"
+    networks:
+      - payout-service_deploy_network
+    cap_add:
+      - IPC_LOCK
+
+
+
+volumes:
+  data_vault:
+
+networks:
+  payout-service_deploy_network:
+    driver: bridge

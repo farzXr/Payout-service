@@ -1,0 +1,540 @@
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-21T19:56:10.429554Z"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-21T19:56:10.429747Z"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-21T19:56:10.430031Z","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-21T19:56:10.454825Z","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-21T19:56:10.458242Z"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-21T19:56:10.458437Z"}
+{"@level":"info","@message":"security barrier not initialized","@module":"core","@timestamp":"2025-12-21T19:56:13.417911Z"}
+{"@level":"info","@message":"seal configuration missing, not initialized","@module":"core","@timestamp":"2025-12-21T19:56:13.418022Z"}
+{"@level":"info","@message":"security barrier not initialized","@module":"core","@timestamp":"2025-12-21T19:56:13.422705Z"}
+{"@level":"info","@message":"creating Raft","@module":"storage.raft","@timestamp":"2025-12-21T19:56:13.432987Z","config":"\u0026raft.Config{ProtocolVersion:3, HeartbeatTimeout:5000000000, ElectionTimeout:5000000000, CommitTimeout:50000000, MaxAppendEntries:64, BatchApplyCh:true, ShutdownOnRemove:true, TrailingLogs:0x2800, SnapshotInterval:120000000000, SnapshotThreshold:0x2000, LeaderLeaseTimeout:2500000000, LocalID:\"node1\", NotifyCh:(chan\u003c- bool)(0xc0003f1e80), LogOutput:io.Writer(nil), LogLevel:\"DEBUG\", Logger:(*hclog.interceptLogger)(0xc000e97d10), NoSnapshotRestoreOnStart:true, PreVoteDisabled:false, NoLegacyTelemetry:false, skipStartup:false}"}
+{"@level":"info","@message":"initial configuration","@module":"storage.raft","@timestamp":"2025-12-21T19:56:13.435363Z","index":1,"servers":"[{Suffrage:Voter ID:node1 Address:127.0.0.1:8201}]"}
+{"@level":"info","@message":"entering follower state","@module":"storage.raft","@timestamp":"2025-12-21T19:56:13.435864Z","follower":{},"leader-address":"","leader-id":""}
+{"@level":"info","@message":"security barrier not initialized","@module":"core","@timestamp":"2025-12-21T19:56:15.244199Z"}
+{"@level":"warn","@message":"heartbeat timeout reached, starting election","@module":"storage.raft","@timestamp":"2025-12-21T19:56:19.888330Z","last-leader-addr":"","last-leader-id":""}
+{"@level":"info","@message":"entering candidate state","@module":"storage.raft","@timestamp":"2025-12-21T19:56:19.888820Z","node":{},"term":2}
+{"@level":"info","@message":"pre-vote successful, starting election","@module":"storage.raft","@timestamp":"2025-12-21T19:56:19.889666Z","refused":0,"tally":1,"term":2,"votesNeeded":1}
+{"@level":"info","@message":"election won","@module":"storage.raft","@timestamp":"2025-12-21T19:56:19.894499Z","tally":1,"term":2}
+{"@level":"info","@message":"entering leader state","@module":"storage.raft","@timestamp":"2025-12-21T19:56:19.894561Z","leader":{}}
+{"@level":"info","@message":"seal configuration missing, not initialized","@module":"core","@timestamp":"2025-12-21T19:56:19.900438Z"}
+{"@level":"info","@message":"security barrier initialized","@module":"core","@timestamp":"2025-12-21T19:56:19.913300Z","shares":5,"stored":1,"threshold":3}
+{"@level":"info","@message":"post-unseal setup starting","@module":"core","@timestamp":"2025-12-21T19:56:19.945908Z"}
+{"@level":"info","@message":"loaded wrapping token key","@module":"core","@timestamp":"2025-12-21T19:56:19.955444Z"}
+{"@level":"info","@message":"successfully setup plugin runtime catalog","@module":"core","@timestamp":"2025-12-21T19:56:19.955824Z"}
+{"@level":"info","@message":"successfully setup plugin catalog","@module":"core","@timestamp":"2025-12-21T19:56:19.955981Z","plugin-directory":""}
+{"@level":"info","@message":"no mounts; adding default mount table","@module":"core","@timestamp":"2025-12-21T19:56:19.956270Z"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T19:56:19.967119Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"cubbyhole/","type":"cubbyhole","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T19:56:19.973210Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"sys/","type":"system","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T19:56:19.974594Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"identity/","type":"identity","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T19:56:19.999853Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"token/","type":"token","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"Starting the rollback manager with 256 workers","@module":"rollback","@timestamp":"2025-12-21T19:56:20.003922Z"}
+{"@level":"info","@message":"starting rollback manager","@module":"rollback","@timestamp":"2025-12-21T19:56:20.004280Z"}
+{"@level":"info","@message":"restoring leases","@module":"core","@timestamp":"2025-12-21T19:56:20.005106Z"}
+{"@level":"info","@message":"lease restore complete","@module":"expiration","@timestamp":"2025-12-21T19:56:20.006786Z"}
+{"@level":"info","@message":"entities restored","@module":"identity","@timestamp":"2025-12-21T19:56:20.013530Z"}
+{"@level":"info","@message":"groups restored","@module":"identity","@timestamp":"2025-12-21T19:56:20.013716Z"}
+{"@level":"info","@message":"Recorded vault version","@module":"core","@timestamp":"2025-12-21T19:56:20.019544Z","build date":"2025-11-18T13:04:32Z","upgrade time":"2025-12-21T19:56:20.014523113Z","vault version":"1.21.1"}
+{"@level":"info","@message":"post-unseal setup complete","@module":"core","@timestamp":"2025-12-21T19:56:20.030542Z"}
+{"@level":"info","@message":"root token generated","@module":"core","@timestamp":"2025-12-21T19:56:20.043071Z"}
+{"@level":"info","@message":"pre-seal teardown starting","@module":"core","@timestamp":"2025-12-21T19:56:20.057076Z"}
+{"@level":"info","@message":"stopping raft active node","@module":"core","@timestamp":"2025-12-21T19:56:20.057201Z"}
+{"@level":"info","@message":"stopping rollback manager","@module":"rollback","@timestamp":"2025-12-21T19:56:20.057559Z"}
+{"@level":"info","@message":"pre-seal teardown complete","@module":"core","@timestamp":"2025-12-21T19:56:20.058155Z"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-21T19:59:25.896290Z"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-21T19:59:25.896592Z"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-21T19:59:25.896617Z","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-21T19:59:25.910798Z","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-21T19:59:25.912377Z"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-21T19:59:25.912650Z"}
+{"@level":"info","@message":"security barrier not initialized","@module":"core","@timestamp":"2025-12-21T19:59:28.902735Z"}
+{"@level":"info","@message":"seal configuration missing, not initialized","@module":"core","@timestamp":"2025-12-21T19:59:28.902880Z"}
+{"@level":"info","@message":"security barrier not initialized","@module":"core","@timestamp":"2025-12-21T19:59:28.905612Z"}
+{"@level":"info","@message":"creating Raft","@module":"storage.raft","@timestamp":"2025-12-21T19:59:28.910385Z","config":"\u0026raft.Config{ProtocolVersion:3, HeartbeatTimeout:5000000000, ElectionTimeout:5000000000, CommitTimeout:50000000, MaxAppendEntries:64, BatchApplyCh:true, ShutdownOnRemove:true, TrailingLogs:0x2800, SnapshotInterval:120000000000, SnapshotThreshold:0x2000, LeaderLeaseTimeout:2500000000, LocalID:\"node1\", NotifyCh:(chan\u003c- bool)(0xc0004f0e80), LogOutput:io.Writer(nil), LogLevel:\"DEBUG\", Logger:(*hclog.interceptLogger)(0xc00118fd10), NoSnapshotRestoreOnStart:true, PreVoteDisabled:false, NoLegacyTelemetry:false, skipStartup:false}"}
+{"@level":"info","@message":"initial configuration","@module":"storage.raft","@timestamp":"2025-12-21T19:59:28.912016Z","index":1,"servers":"[{Suffrage:Voter ID:node1 Address:127.0.0.1:8201}]"}
+{"@level":"info","@message":"entering follower state","@module":"storage.raft","@timestamp":"2025-12-21T19:59:28.912335Z","follower":{},"leader-address":"","leader-id":""}
+{"@level":"warn","@message":"heartbeat timeout reached, starting election","@module":"storage.raft","@timestamp":"2025-12-21T19:59:34.960462Z","last-leader-addr":"","last-leader-id":""}
+{"@level":"info","@message":"entering candidate state","@module":"storage.raft","@timestamp":"2025-12-21T19:59:34.960669Z","node":{},"term":2}
+{"@level":"info","@message":"pre-vote successful, starting election","@module":"storage.raft","@timestamp":"2025-12-21T19:59:34.960788Z","refused":0,"tally":1,"term":2,"votesNeeded":1}
+{"@level":"info","@message":"election won","@module":"storage.raft","@timestamp":"2025-12-21T19:59:34.968013Z","tally":1,"term":2}
+{"@level":"info","@message":"entering leader state","@module":"storage.raft","@timestamp":"2025-12-21T19:59:34.968101Z","leader":{}}
+{"@level":"info","@message":"security barrier initialized","@module":"core","@timestamp":"2025-12-21T19:59:34.987975Z","shares":5,"stored":1,"threshold":3}
+{"@level":"info","@message":"post-unseal setup starting","@module":"core","@timestamp":"2025-12-21T19:59:35.018726Z"}
+{"@level":"info","@message":"loaded wrapping token key","@module":"core","@timestamp":"2025-12-21T19:59:35.026846Z"}
+{"@level":"info","@message":"successfully setup plugin runtime catalog","@module":"core","@timestamp":"2025-12-21T19:59:35.026912Z"}
+{"@level":"info","@message":"successfully setup plugin catalog","@module":"core","@timestamp":"2025-12-21T19:59:35.026956Z","plugin-directory":""}
+{"@level":"info","@message":"no mounts; adding default mount table","@module":"core","@timestamp":"2025-12-21T19:59:35.026993Z"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T19:59:35.036266Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"cubbyhole/","type":"cubbyhole","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T19:59:35.038395Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"sys/","type":"system","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T19:59:35.039943Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"identity/","type":"identity","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T19:59:35.061606Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"token/","type":"token","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"Starting the rollback manager with 256 workers","@module":"rollback","@timestamp":"2025-12-21T19:59:35.065780Z"}
+{"@level":"info","@message":"starting rollback manager","@module":"rollback","@timestamp":"2025-12-21T19:59:35.065997Z"}
+{"@level":"info","@message":"restoring leases","@module":"core","@timestamp":"2025-12-21T19:59:35.066457Z"}
+{"@level":"info","@message":"lease restore complete","@module":"expiration","@timestamp":"2025-12-21T19:59:35.067062Z"}
+{"@level":"info","@message":"entities restored","@module":"identity","@timestamp":"2025-12-21T19:59:35.073727Z"}
+{"@level":"info","@message":"groups restored","@module":"identity","@timestamp":"2025-12-21T19:59:35.073841Z"}
+{"@level":"info","@message":"Recorded vault version","@module":"core","@timestamp":"2025-12-21T19:59:35.078356Z","build date":"2025-11-18T13:04:32Z","upgrade time":"2025-12-21T19:59:35.073991835Z","vault version":"1.21.1"}
+{"@level":"info","@message":"post-unseal setup complete","@module":"core","@timestamp":"2025-12-21T19:59:35.089087Z"}
+{"@level":"info","@message":"root token generated","@module":"core","@timestamp":"2025-12-21T19:59:35.100203Z"}
+{"@level":"info","@message":"pre-seal teardown starting","@module":"core","@timestamp":"2025-12-21T19:59:35.112078Z"}
+{"@level":"info","@message":"stopping raft active node","@module":"core","@timestamp":"2025-12-21T19:59:35.112145Z"}
+{"@level":"info","@message":"stopping rollback manager","@module":"rollback","@timestamp":"2025-12-21T19:59:35.112273Z"}
+{"@level":"info","@message":"pre-seal teardown complete","@module":"core","@timestamp":"2025-12-21T19:59:35.112472Z"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-21T19:59:35.177946Z"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-21T19:59:35.178015Z"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-21T20:02:33.995022Z"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-21T20:02:33.995276Z"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-21T20:02:33.995347Z","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-21T20:02:34.020805Z","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-21T20:02:34.022481Z"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-21T20:02:34.022593Z"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-21T20:03:13.393508Z"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-21T20:03:13.393553Z"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-21T20:03:13.393565Z","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-21T20:03:13.400027Z","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-21T20:03:13.400819Z"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-21T20:03:13.400863Z"}
+{"@level":"info","@message":"security barrier not initialized","@module":"core","@timestamp":"2025-12-21T20:03:16.406265Z"}
+{"@level":"info","@message":"seal configuration missing, not initialized","@module":"core","@timestamp":"2025-12-21T20:03:16.406367Z"}
+{"@level":"info","@message":"security barrier not initialized","@module":"core","@timestamp":"2025-12-21T20:03:16.407860Z"}
+{"@level":"info","@message":"creating Raft","@module":"storage.raft","@timestamp":"2025-12-21T20:03:16.412122Z","config":"\u0026raft.Config{ProtocolVersion:3, HeartbeatTimeout:5000000000, ElectionTimeout:5000000000, CommitTimeout:50000000, MaxAppendEntries:64, BatchApplyCh:true, ShutdownOnRemove:true, TrailingLogs:0x2800, SnapshotInterval:120000000000, SnapshotThreshold:0x2000, LeaderLeaseTimeout:2500000000, LocalID:\"node1\", NotifyCh:(chan\u003c- bool)(0xc000ea8980), LogOutput:io.Writer(nil), LogLevel:\"DEBUG\", Logger:(*hclog.interceptLogger)(0xc00114c450), NoSnapshotRestoreOnStart:true, PreVoteDisabled:false, NoLegacyTelemetry:false, skipStartup:false}"}
+{"@level":"info","@message":"initial configuration","@module":"storage.raft","@timestamp":"2025-12-21T20:03:16.414212Z","index":1,"servers":"[{Suffrage:Voter ID:node1 Address:127.0.0.1:8201}]"}
+{"@level":"info","@message":"entering follower state","@module":"storage.raft","@timestamp":"2025-12-21T20:03:16.414683Z","follower":{},"leader-address":"","leader-id":""}
+{"@level":"info","@message":"security barrier not initialized","@module":"core","@timestamp":"2025-12-21T20:03:17.145953Z"}
+{"@level":"warn","@message":"heartbeat timeout reached, starting election","@module":"storage.raft","@timestamp":"2025-12-21T20:03:21.596760Z","last-leader-addr":"","last-leader-id":""}
+{"@level":"info","@message":"entering candidate state","@module":"storage.raft","@timestamp":"2025-12-21T20:03:21.597133Z","node":{},"term":2}
+{"@level":"info","@message":"pre-vote successful, starting election","@module":"storage.raft","@timestamp":"2025-12-21T20:03:21.597401Z","refused":0,"tally":1,"term":2,"votesNeeded":1}
+{"@level":"info","@message":"election won","@module":"storage.raft","@timestamp":"2025-12-21T20:03:21.604472Z","tally":1,"term":2}
+{"@level":"info","@message":"entering leader state","@module":"storage.raft","@timestamp":"2025-12-21T20:03:21.604551Z","leader":{}}
+{"@level":"info","@message":"seal configuration missing, not initialized","@module":"core","@timestamp":"2025-12-21T20:03:21.611563Z"}
+{"@level":"info","@message":"security barrier initialized","@module":"core","@timestamp":"2025-12-21T20:03:21.621764Z","shares":5,"stored":1,"threshold":3}
+{"@level":"info","@message":"post-unseal setup starting","@module":"core","@timestamp":"2025-12-21T20:03:21.654172Z"}
+{"@level":"info","@message":"loaded wrapping token key","@module":"core","@timestamp":"2025-12-21T20:03:21.660777Z"}
+{"@level":"info","@message":"successfully setup plugin runtime catalog","@module":"core","@timestamp":"2025-12-21T20:03:21.660852Z"}
+{"@level":"info","@message":"successfully setup plugin catalog","@module":"core","@timestamp":"2025-12-21T20:03:21.660951Z","plugin-directory":""}
+{"@level":"info","@message":"no mounts; adding default mount table","@module":"core","@timestamp":"2025-12-21T20:03:21.661041Z"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:03:21.670741Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"cubbyhole/","type":"cubbyhole","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:03:21.673575Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"sys/","type":"system","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:03:21.674680Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"identity/","type":"identity","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:03:21.696888Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"token/","type":"token","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"Starting the rollback manager with 256 workers","@module":"rollback","@timestamp":"2025-12-21T20:03:21.700821Z"}
+{"@level":"info","@message":"starting rollback manager","@module":"rollback","@timestamp":"2025-12-21T20:03:21.701218Z"}
+{"@level":"info","@message":"restoring leases","@module":"core","@timestamp":"2025-12-21T20:03:21.702148Z"}
+{"@level":"info","@message":"lease restore complete","@module":"expiration","@timestamp":"2025-12-21T20:03:21.702967Z"}
+{"@level":"info","@message":"entities restored","@module":"identity","@timestamp":"2025-12-21T20:03:21.709815Z"}
+{"@level":"info","@message":"groups restored","@module":"identity","@timestamp":"2025-12-21T20:03:21.709895Z"}
+{"@level":"info","@message":"Recorded vault version","@module":"core","@timestamp":"2025-12-21T20:03:21.715268Z","build date":"2025-11-18T13:04:32Z","upgrade time":"2025-12-21T20:03:21.710372141Z","vault version":"1.21.1"}
+{"@level":"info","@message":"post-unseal setup complete","@module":"core","@timestamp":"2025-12-21T20:03:21.726008Z"}
+{"@level":"info","@message":"root token generated","@module":"core","@timestamp":"2025-12-21T20:03:21.737124Z"}
+{"@level":"info","@message":"pre-seal teardown starting","@module":"core","@timestamp":"2025-12-21T20:03:21.748159Z"}
+{"@level":"info","@message":"stopping raft active node","@module":"core","@timestamp":"2025-12-21T20:03:21.748277Z"}
+{"@level":"info","@message":"stopping rollback manager","@module":"rollback","@timestamp":"2025-12-21T20:03:21.748545Z"}
+{"@level":"info","@message":"pre-seal teardown complete","@module":"core","@timestamp":"2025-12-21T20:03:21.748737Z"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-21T20:03:54.831493Z"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-21T20:03:54.831612Z"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-21T20:05:15.545063Z"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-21T20:05:15.545193Z"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-21T20:05:15.545254Z","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-21T20:05:15.559546Z","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-21T20:05:15.560457Z"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-21T20:05:15.560569Z"}
+{"@level":"info","@message":"security barrier not initialized","@module":"core","@timestamp":"2025-12-21T20:05:18.556997Z"}
+{"@level":"info","@message":"seal configuration missing, not initialized","@module":"core","@timestamp":"2025-12-21T20:05:18.557092Z"}
+{"@level":"info","@message":"security barrier not initialized","@module":"core","@timestamp":"2025-12-21T20:05:18.558540Z"}
+{"@level":"info","@message":"creating Raft","@module":"storage.raft","@timestamp":"2025-12-21T20:05:18.562375Z","config":"\u0026raft.Config{ProtocolVersion:3, HeartbeatTimeout:5000000000, ElectionTimeout:5000000000, CommitTimeout:50000000, MaxAppendEntries:64, BatchApplyCh:true, ShutdownOnRemove:true, TrailingLogs:0x2800, SnapshotInterval:120000000000, SnapshotThreshold:0x2000, LeaderLeaseTimeout:2500000000, LocalID:\"node1\", NotifyCh:(chan\u003c- bool)(0xc0001dc580), LogOutput:io.Writer(nil), LogLevel:\"DEBUG\", Logger:(*hclog.interceptLogger)(0xc001174540), NoSnapshotRestoreOnStart:true, PreVoteDisabled:false, NoLegacyTelemetry:false, skipStartup:false}"}
+{"@level":"info","@message":"initial configuration","@module":"storage.raft","@timestamp":"2025-12-21T20:05:18.564030Z","index":1,"servers":"[{Suffrage:Voter ID:node1 Address:127.0.0.1:8201}]"}
+{"@level":"info","@message":"entering follower state","@module":"storage.raft","@timestamp":"2025-12-21T20:05:18.564322Z","follower":{},"leader-address":"","leader-id":""}
+{"@level":"warn","@message":"heartbeat timeout reached, starting election","@module":"storage.raft","@timestamp":"2025-12-21T20:05:24.094857Z","last-leader-addr":"","last-leader-id":""}
+{"@level":"info","@message":"entering candidate state","@module":"storage.raft","@timestamp":"2025-12-21T20:05:24.095069Z","node":{},"term":2}
+{"@level":"info","@message":"pre-vote successful, starting election","@module":"storage.raft","@timestamp":"2025-12-21T20:05:24.095166Z","refused":0,"tally":1,"term":2,"votesNeeded":1}
+{"@level":"info","@message":"election won","@module":"storage.raft","@timestamp":"2025-12-21T20:05:24.102056Z","tally":1,"term":2}
+{"@level":"info","@message":"entering leader state","@module":"storage.raft","@timestamp":"2025-12-21T20:05:24.102146Z","leader":{}}
+{"@level":"info","@message":"security barrier initialized","@module":"core","@timestamp":"2025-12-21T20:05:24.120252Z","shares":5,"stored":1,"threshold":3}
+{"@level":"info","@message":"post-unseal setup starting","@module":"core","@timestamp":"2025-12-21T20:05:24.148186Z"}
+{"@level":"info","@message":"loaded wrapping token key","@module":"core","@timestamp":"2025-12-21T20:05:24.156028Z"}
+{"@level":"info","@message":"successfully setup plugin runtime catalog","@module":"core","@timestamp":"2025-12-21T20:05:24.156106Z"}
+{"@level":"info","@message":"successfully setup plugin catalog","@module":"core","@timestamp":"2025-12-21T20:05:24.156249Z","plugin-directory":""}
+{"@level":"info","@message":"no mounts; adding default mount table","@module":"core","@timestamp":"2025-12-21T20:05:24.156354Z"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:05:24.164861Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"cubbyhole/","type":"cubbyhole","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:05:24.166542Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"sys/","type":"system","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:05:24.167510Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"identity/","type":"identity","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:05:24.191713Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"token/","type":"token","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"Starting the rollback manager with 256 workers","@module":"rollback","@timestamp":"2025-12-21T20:05:24.194733Z"}
+{"@level":"info","@message":"starting rollback manager","@module":"rollback","@timestamp":"2025-12-21T20:05:24.195000Z"}
+{"@level":"info","@message":"restoring leases","@module":"core","@timestamp":"2025-12-21T20:05:24.195433Z"}
+{"@level":"info","@message":"lease restore complete","@module":"expiration","@timestamp":"2025-12-21T20:05:24.196122Z"}
+{"@level":"info","@message":"entities restored","@module":"identity","@timestamp":"2025-12-21T20:05:24.203676Z"}
+{"@level":"info","@message":"groups restored","@module":"identity","@timestamp":"2025-12-21T20:05:24.203798Z"}
+{"@level":"info","@message":"Recorded vault version","@module":"core","@timestamp":"2025-12-21T20:05:24.209463Z","build date":"2025-11-18T13:04:32Z","upgrade time":"2025-12-21T20:05:24.204288518Z","vault version":"1.21.1"}
+{"@level":"info","@message":"post-unseal setup complete","@module":"core","@timestamp":"2025-12-21T20:05:24.218917Z"}
+{"@level":"info","@message":"root token generated","@module":"core","@timestamp":"2025-12-21T20:05:24.229335Z"}
+{"@level":"info","@message":"pre-seal teardown starting","@module":"core","@timestamp":"2025-12-21T20:05:24.241757Z"}
+{"@level":"info","@message":"stopping raft active node","@module":"core","@timestamp":"2025-12-21T20:05:24.241839Z"}
+{"@level":"info","@message":"stopping rollback manager","@module":"rollback","@timestamp":"2025-12-21T20:05:24.241969Z"}
+{"@level":"info","@message":"pre-seal teardown complete","@module":"core","@timestamp":"2025-12-21T20:05:24.242134Z"}
+{"@level":"info","@message":"starting listener","@module":"core.cluster-listener.tcp","@timestamp":"2025-12-21T20:05:51.476255Z","listener_address":{"IP":"0.0.0.0","Port":8201,"Zone":""}}
+{"@level":"info","@message":"serving cluster requests","@module":"core.cluster-listener","@timestamp":"2025-12-21T20:05:51.476562Z","cluster_listen_address":{"IP":"::","Port":8201,"Zone":""}}
+{"@level":"info","@message":"creating Raft","@module":"storage.raft","@timestamp":"2025-12-21T20:05:51.477037Z","config":"\u0026raft.Config{ProtocolVersion:3, HeartbeatTimeout:15000000000, ElectionTimeout:15000000000, CommitTimeout:50000000, MaxAppendEntries:64, BatchApplyCh:true, ShutdownOnRemove:true, TrailingLogs:0x2800, SnapshotInterval:120000000000, SnapshotThreshold:0x2000, LeaderLeaseTimeout:2500000000, LocalID:\"node1\", NotifyCh:(chan\u003c- bool)(0xc000e32d00), LogOutput:io.Writer(nil), LogLevel:\"DEBUG\", Logger:(*hclog.interceptLogger)(0xc001174540), NoSnapshotRestoreOnStart:true, PreVoteDisabled:false, NoLegacyTelemetry:false, skipStartup:false}"}
+{"@level":"info","@message":"initial configuration","@module":"storage.raft","@timestamp":"2025-12-21T20:05:51.479009Z","index":1,"servers":"[{Suffrage:Voter ID:node1 Address:127.0.0.1:8201}]"}
+{"@level":"info","@message":"entering follower state","@module":"storage.raft","@timestamp":"2025-12-21T20:05:51.479196Z","follower":{},"leader-address":"","leader-id":""}
+{"@level":"warn","@message":"heartbeat timeout reached, starting election","@module":"storage.raft","@timestamp":"2025-12-21T20:05:51.479330Z","last-leader-addr":"","last-leader-id":""}
+{"@level":"info","@message":"entering candidate state","@module":"storage.raft","@timestamp":"2025-12-21T20:05:51.479364Z","node":{},"term":3}
+{"@level":"info","@message":"pre-vote successful, starting election","@module":"storage.raft","@timestamp":"2025-12-21T20:05:51.479408Z","refused":0,"tally":1,"term":3,"votesNeeded":1}
+{"@level":"info","@message":"entering standby mode","@module":"core","@timestamp":"2025-12-21T20:05:51.479260Z"}
+{"@level":"info","@message":"vault is unsealed","@module":"core","@timestamp":"2025-12-21T20:05:51.479224Z"}
+{"@level":"info","@message":"election won","@module":"storage.raft","@timestamp":"2025-12-21T20:05:51.483710Z","tally":1,"term":3}
+{"@level":"info","@message":"entering leader state","@module":"storage.raft","@timestamp":"2025-12-21T20:05:51.483786Z","leader":{}}
+{"@level":"info","@message":"acquired lock, enabling active operation","@module":"core","@timestamp":"2025-12-21T20:05:51.489730Z"}
+{"@level":"info","@message":"post-unseal setup starting","@module":"core","@timestamp":"2025-12-21T20:05:51.498977Z"}
+{"@level":"info","@message":"loaded wrapping token key","@module":"core","@timestamp":"2025-12-21T20:05:51.502337Z"}
+{"@level":"info","@message":"successfully setup plugin runtime catalog","@module":"core","@timestamp":"2025-12-21T20:05:51.502390Z"}
+{"@level":"info","@message":"successfully setup plugin catalog","@module":"core","@timestamp":"2025-12-21T20:05:51.502455Z","plugin-directory":""}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:05:51.503317Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"sys/","type":"system","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:05:51.503733Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"identity/","type":"identity","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:05:51.503832Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"cubbyhole/","type":"cubbyhole","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:05:51.505471Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"token/","type":"token","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"Starting the rollback manager with 256 workers","@module":"rollback","@timestamp":"2025-12-21T20:05:51.505816Z"}
+{"@level":"info","@message":"starting rollback manager","@module":"rollback","@timestamp":"2025-12-21T20:05:51.506020Z"}
+{"@level":"info","@message":"restoring leases","@module":"core","@timestamp":"2025-12-21T20:05:51.506573Z"}
+{"@level":"info","@message":"lease restore complete","@module":"expiration","@timestamp":"2025-12-21T20:05:51.506983Z"}
+{"@level":"info","@message":"entities restored","@module":"identity","@timestamp":"2025-12-21T20:05:51.507237Z"}
+{"@level":"info","@message":"groups restored","@module":"identity","@timestamp":"2025-12-21T20:05:51.507309Z"}
+{"@level":"info","@message":"starting raft active node","@module":"core","@timestamp":"2025-12-21T20:05:51.507515Z"}
+{"@level":"info","@message":"starting autopilot","@module":"storage.raft","@timestamp":"2025-12-21T20:05:51.508298Z","config":{"cleanup_dead_servers":false,"cleanup_dead_servers_value":0,"dead_server_last_contact_threshold":"24h0m0s","disable_upgrade_migration":false,"last_contact_threshold":"10s","max_trailing_logs":1000,"min_quorum":0,"redundancy_zone_tag":"redundancy_zone","server_stabilization_time":"10s","upgrade_version_tag":"upgrade_version"}}
+{"@level":"info","@message":"post-unseal setup complete","@module":"core","@timestamp":"2025-12-21T20:05:51.513494Z"}
+{"@level":"info","@message":"enabled credential backend","@module":"core","@timestamp":"2025-12-21T20:06:18.816051Z","path":"userpass/","type":"userpass","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"enabled credential backend","@module":"core","@timestamp":"2025-12-21T20:06:18.873991Z","path":"approle/","type":"approle","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successful mount","@module":"core","@timestamp":"2025-12-21T20:06:18.930997Z","namespace":"","path":"secrets/","type":"kv","version":"v0.25.0+builtin"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-21T20:06:18.938425Z"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-21T20:06:18.938480Z"}
+{"@level":"info","@message":"reloaded raft config","@module":"storage.raft","@timestamp":"2025-12-21T20:06:18.938526Z","settings":{"TrailingLogs":10240,"SnapshotInterval":120000000000,"SnapshotThreshold":8192,"HeartbeatTimeout":5000000000,"ElectionTimeout":5000000000}}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-21T20:07:04.224642Z"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-21T20:07:04.224825Z"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-21T20:07:04.224900Z","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-21T20:07:04.251540Z","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-21T20:07:04.253568Z"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-21T20:07:04.253761Z"}
+{"@level":"info","@message":"security barrier not initialized","@module":"core","@timestamp":"2025-12-21T20:07:07.254907Z"}
+{"@level":"info","@message":"seal configuration missing, not initialized","@module":"core","@timestamp":"2025-12-21T20:07:07.255013Z"}
+{"@level":"info","@message":"security barrier not initialized","@module":"core","@timestamp":"2025-12-21T20:07:07.258252Z"}
+{"@level":"info","@message":"creating Raft","@module":"storage.raft","@timestamp":"2025-12-21T20:07:07.262911Z","config":"\u0026raft.Config{ProtocolVersion:3, HeartbeatTimeout:5000000000, ElectionTimeout:5000000000, CommitTimeout:50000000, MaxAppendEntries:64, BatchApplyCh:true, ShutdownOnRemove:true, TrailingLogs:0x2800, SnapshotInterval:120000000000, SnapshotThreshold:0x2000, LeaderLeaseTimeout:2500000000, LocalID:\"node1\", NotifyCh:(chan\u003c- bool)(0xc001298080), LogOutput:io.Writer(nil), LogLevel:\"DEBUG\", Logger:(*hclog.interceptLogger)(0xc001187d10), NoSnapshotRestoreOnStart:true, PreVoteDisabled:false, NoLegacyTelemetry:false, skipStartup:false}"}
+{"@level":"info","@message":"initial configuration","@module":"storage.raft","@timestamp":"2025-12-21T20:07:07.264739Z","index":1,"servers":"[{Suffrage:Voter ID:node1 Address:127.0.0.1:8201}]"}
+{"@level":"info","@message":"entering follower state","@module":"storage.raft","@timestamp":"2025-12-21T20:07:07.264968Z","follower":{},"leader-address":"","leader-id":""}
+{"@level":"warn","@message":"heartbeat timeout reached, starting election","@module":"storage.raft","@timestamp":"2025-12-21T20:07:15.766034Z","last-leader-addr":"","last-leader-id":""}
+{"@level":"info","@message":"entering candidate state","@module":"storage.raft","@timestamp":"2025-12-21T20:07:15.766187Z","node":{},"term":2}
+{"@level":"info","@message":"pre-vote successful, starting election","@module":"storage.raft","@timestamp":"2025-12-21T20:07:15.766295Z","refused":0,"tally":1,"term":2,"votesNeeded":1}
+{"@level":"info","@message":"election won","@module":"storage.raft","@timestamp":"2025-12-21T20:07:15.772291Z","tally":1,"term":2}
+{"@level":"info","@message":"entering leader state","@module":"storage.raft","@timestamp":"2025-12-21T20:07:15.772393Z","leader":{}}
+{"@level":"info","@message":"security barrier initialized","@module":"core","@timestamp":"2025-12-21T20:07:15.792982Z","shares":5,"stored":1,"threshold":3}
+{"@level":"info","@message":"post-unseal setup starting","@module":"core","@timestamp":"2025-12-21T20:07:15.823807Z"}
+{"@level":"info","@message":"loaded wrapping token key","@module":"core","@timestamp":"2025-12-21T20:07:15.830682Z"}
+{"@level":"info","@message":"successfully setup plugin runtime catalog","@module":"core","@timestamp":"2025-12-21T20:07:15.830780Z"}
+{"@level":"info","@message":"successfully setup plugin catalog","@module":"core","@timestamp":"2025-12-21T20:07:15.830900Z","plugin-directory":""}
+{"@level":"info","@message":"no mounts; adding default mount table","@module":"core","@timestamp":"2025-12-21T20:07:15.830986Z"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:07:15.839701Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"cubbyhole/","type":"cubbyhole","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:07:15.843396Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"sys/","type":"system","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:07:15.844372Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"identity/","type":"identity","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:07:15.867486Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"token/","type":"token","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"Starting the rollback manager with 256 workers","@module":"rollback","@timestamp":"2025-12-21T20:07:15.870448Z"}
+{"@level":"info","@message":"starting rollback manager","@module":"rollback","@timestamp":"2025-12-21T20:07:15.870605Z"}
+{"@level":"info","@message":"restoring leases","@module":"core","@timestamp":"2025-12-21T20:07:15.871071Z"}
+{"@level":"info","@message":"lease restore complete","@module":"expiration","@timestamp":"2025-12-21T20:07:15.872700Z"}
+{"@level":"info","@message":"entities restored","@module":"identity","@timestamp":"2025-12-21T20:07:15.880257Z"}
+{"@level":"info","@message":"groups restored","@module":"identity","@timestamp":"2025-12-21T20:07:15.880408Z"}
+{"@level":"info","@message":"Recorded vault version","@module":"core","@timestamp":"2025-12-21T20:07:15.886222Z","build date":"2025-11-18T13:04:32Z","upgrade time":"2025-12-21T20:07:15.880847256Z","vault version":"1.21.1"}
+{"@level":"info","@message":"post-unseal setup complete","@module":"core","@timestamp":"2025-12-21T20:07:15.896927Z"}
+{"@level":"info","@message":"root token generated","@module":"core","@timestamp":"2025-12-21T20:07:15.907506Z"}
+{"@level":"info","@message":"pre-seal teardown starting","@module":"core","@timestamp":"2025-12-21T20:07:15.920475Z"}
+{"@level":"info","@message":"stopping raft active node","@module":"core","@timestamp":"2025-12-21T20:07:15.920566Z"}
+{"@level":"info","@message":"stopping rollback manager","@module":"rollback","@timestamp":"2025-12-21T20:07:15.920669Z"}
+{"@level":"info","@message":"pre-seal teardown complete","@module":"core","@timestamp":"2025-12-21T20:07:15.920855Z"}
+{"@level":"info","@message":"starting listener","@module":"core.cluster-listener.tcp","@timestamp":"2025-12-21T20:07:32.181450Z","listener_address":{"IP":"0.0.0.0","Port":8201,"Zone":""}}
+{"@level":"info","@message":"serving cluster requests","@module":"core.cluster-listener","@timestamp":"2025-12-21T20:07:32.181695Z","cluster_listen_address":{"IP":"::","Port":8201,"Zone":""}}
+{"@level":"info","@message":"creating Raft","@module":"storage.raft","@timestamp":"2025-12-21T20:07:32.182171Z","config":"\u0026raft.Config{ProtocolVersion:3, HeartbeatTimeout:15000000000, ElectionTimeout:15000000000, CommitTimeout:50000000, MaxAppendEntries:64, BatchApplyCh:true, ShutdownOnRemove:true, TrailingLogs:0x2800, SnapshotInterval:120000000000, SnapshotThreshold:0x2000, LeaderLeaseTimeout:2500000000, LocalID:\"node1\", NotifyCh:(chan\u003c- bool)(0xc000109480), LogOutput:io.Writer(nil), LogLevel:\"DEBUG\", Logger:(*hclog.interceptLogger)(0xc001187d10), NoSnapshotRestoreOnStart:true, PreVoteDisabled:false, NoLegacyTelemetry:false, skipStartup:false}"}
+{"@level":"info","@message":"initial configuration","@module":"storage.raft","@timestamp":"2025-12-21T20:07:32.183770Z","index":1,"servers":"[{Suffrage:Voter ID:node1 Address:127.0.0.1:8201}]"}
+{"@level":"info","@message":"entering follower state","@module":"storage.raft","@timestamp":"2025-12-21T20:07:32.183903Z","follower":{},"leader-address":"","leader-id":""}
+{"@level":"info","@message":"entering standby mode","@module":"core","@timestamp":"2025-12-21T20:07:32.183984Z"}
+{"@level":"warn","@message":"heartbeat timeout reached, starting election","@module":"storage.raft","@timestamp":"2025-12-21T20:07:32.184017Z","last-leader-addr":"","last-leader-id":""}
+{"@level":"info","@message":"entering candidate state","@module":"storage.raft","@timestamp":"2025-12-21T20:07:32.184038Z","node":{},"term":3}
+{"@level":"info","@message":"vault is unsealed","@module":"core","@timestamp":"2025-12-21T20:07:32.183955Z"}
+{"@level":"info","@message":"pre-vote successful, starting election","@module":"storage.raft","@timestamp":"2025-12-21T20:07:32.184062Z","refused":0,"tally":1,"term":3,"votesNeeded":1}
+{"@level":"info","@message":"election won","@module":"storage.raft","@timestamp":"2025-12-21T20:07:32.188754Z","tally":1,"term":3}
+{"@level":"info","@message":"entering leader state","@module":"storage.raft","@timestamp":"2025-12-21T20:07:32.188821Z","leader":{}}
+{"@level":"info","@message":"acquired lock, enabling active operation","@module":"core","@timestamp":"2025-12-21T20:07:32.194175Z"}
+{"@level":"info","@message":"post-unseal setup starting","@module":"core","@timestamp":"2025-12-21T20:07:32.203671Z"}
+{"@level":"info","@message":"loaded wrapping token key","@module":"core","@timestamp":"2025-12-21T20:07:32.206735Z"}
+{"@level":"info","@message":"successfully setup plugin runtime catalog","@module":"core","@timestamp":"2025-12-21T20:07:32.206788Z"}
+{"@level":"info","@message":"successfully setup plugin catalog","@module":"core","@timestamp":"2025-12-21T20:07:32.206823Z","plugin-directory":""}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:07:32.207866Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"sys/","type":"system","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:07:32.208295Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"identity/","type":"identity","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:07:32.208501Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"cubbyhole/","type":"cubbyhole","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:07:32.209287Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"token/","type":"token","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"Starting the rollback manager with 256 workers","@module":"rollback","@timestamp":"2025-12-21T20:07:32.209476Z"}
+{"@level":"info","@message":"starting rollback manager","@module":"rollback","@timestamp":"2025-12-21T20:07:32.209607Z"}
+{"@level":"info","@message":"restoring leases","@module":"core","@timestamp":"2025-12-21T20:07:32.209725Z"}
+{"@level":"info","@message":"entities restored","@module":"identity","@timestamp":"2025-12-21T20:07:32.210105Z"}
+{"@level":"info","@message":"lease restore complete","@module":"expiration","@timestamp":"2025-12-21T20:07:32.210147Z"}
+{"@level":"info","@message":"groups restored","@module":"identity","@timestamp":"2025-12-21T20:07:32.210166Z"}
+{"@level":"info","@message":"starting raft active node","@module":"core","@timestamp":"2025-12-21T20:07:32.210355Z"}
+{"@level":"info","@message":"starting autopilot","@module":"storage.raft","@timestamp":"2025-12-21T20:07:32.210770Z","config":{"cleanup_dead_servers":false,"cleanup_dead_servers_value":0,"dead_server_last_contact_threshold":"24h0m0s","disable_upgrade_migration":false,"last_contact_threshold":"10s","max_trailing_logs":1000,"min_quorum":0,"redundancy_zone_tag":"redundancy_zone","server_stabilization_time":"10s","upgrade_version_tag":"upgrade_version"}}
+{"@level":"info","@message":"post-unseal setup complete","@module":"core","@timestamp":"2025-12-21T20:07:32.215616Z"}
+{"@level":"info","@message":"enabled credential backend","@module":"core","@timestamp":"2025-12-21T20:07:45.525142Z","path":"userpass/","type":"userpass","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"enabled credential backend","@module":"core","@timestamp":"2025-12-21T20:07:45.591125Z","path":"approle/","type":"approle","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successful mount","@module":"core","@timestamp":"2025-12-21T20:07:45.648211Z","namespace":"","path":"secrets/","type":"kv","version":"v0.25.0+builtin"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-21T20:07:45.655414Z"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-21T20:07:45.655501Z"}
+{"@level":"info","@message":"reloaded raft config","@module":"storage.raft","@timestamp":"2025-12-21T20:07:45.655567Z","settings":{"TrailingLogs":10240,"SnapshotInterval":120000000000,"SnapshotThreshold":8192,"HeartbeatTimeout":5000000000,"ElectionTimeout":5000000000}}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-21T20:10:43.743771Z"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-21T20:10:43.744019Z"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-21T20:10:43.744145Z","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-21T20:10:43.753334Z","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-21T20:10:43.754877Z"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-21T20:10:43.755006Z"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-21T20:10:46.740711Z"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-21T20:10:46.740806Z"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-21T20:11:14.179266Z"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-21T20:11:14.179422Z"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-21T20:11:14.179446Z","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-21T20:11:14.193038Z","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-21T20:11:14.195061Z"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-21T20:11:14.195147Z"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-21T20:11:37.256404Z"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-21T20:11:37.256886Z"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-21T20:11:37.256916Z","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-21T20:11:37.272340Z","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-21T20:11:37.272876Z"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-21T20:11:37.272909Z"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-21T20:12:14.237645Z"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-21T20:12:14.237803Z"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-21T20:12:14.237842Z","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-21T20:12:14.252042Z","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-21T20:12:14.255633Z"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-21T20:12:14.255688Z"}
+{"@level":"info","@message":"security barrier not initialized","@module":"core","@timestamp":"2025-12-21T20:12:17.245489Z"}
+{"@level":"info","@message":"seal configuration missing, not initialized","@module":"core","@timestamp":"2025-12-21T20:12:17.245608Z"}
+{"@level":"info","@message":"security barrier not initialized","@module":"core","@timestamp":"2025-12-21T20:12:17.248445Z"}
+{"@level":"info","@message":"creating Raft","@module":"storage.raft","@timestamp":"2025-12-21T20:12:17.253297Z","config":"\u0026raft.Config{ProtocolVersion:3, HeartbeatTimeout:5000000000, ElectionTimeout:5000000000, CommitTimeout:50000000, MaxAppendEntries:64, BatchApplyCh:true, ShutdownOnRemove:true, TrailingLogs:0x2800, SnapshotInterval:120000000000, SnapshotThreshold:0x2000, LeaderLeaseTimeout:2500000000, LocalID:\"node1\", NotifyCh:(chan\u003c- bool)(0xc00116c180), LogOutput:io.Writer(nil), LogLevel:\"DEBUG\", Logger:(*hclog.interceptLogger)(0xc00119fb30), NoSnapshotRestoreOnStart:true, PreVoteDisabled:false, NoLegacyTelemetry:false, skipStartup:false}"}
+{"@level":"info","@message":"initial configuration","@module":"storage.raft","@timestamp":"2025-12-21T20:12:17.256292Z","index":1,"servers":"[{Suffrage:Voter ID:node1 Address:127.0.0.1:8201}]"}
+{"@level":"info","@message":"entering follower state","@module":"storage.raft","@timestamp":"2025-12-21T20:12:17.256598Z","follower":{},"leader-address":"","leader-id":""}
+{"@level":"warn","@message":"heartbeat timeout reached, starting election","@module":"storage.raft","@timestamp":"2025-12-21T20:12:25.651260Z","last-leader-addr":"","last-leader-id":""}
+{"@level":"info","@message":"entering candidate state","@module":"storage.raft","@timestamp":"2025-12-21T20:12:25.651463Z","node":{},"term":2}
+{"@level":"info","@message":"pre-vote successful, starting election","@module":"storage.raft","@timestamp":"2025-12-21T20:12:25.651561Z","refused":0,"tally":1,"term":2,"votesNeeded":1}
+{"@level":"info","@message":"election won","@module":"storage.raft","@timestamp":"2025-12-21T20:12:25.660447Z","tally":1,"term":2}
+{"@level":"info","@message":"entering leader state","@module":"storage.raft","@timestamp":"2025-12-21T20:12:25.660529Z","leader":{}}
+{"@level":"info","@message":"security barrier initialized","@module":"core","@timestamp":"2025-12-21T20:12:25.679928Z","shares":5,"stored":1,"threshold":3}
+{"@level":"info","@message":"post-unseal setup starting","@module":"core","@timestamp":"2025-12-21T20:12:25.713927Z"}
+{"@level":"info","@message":"loaded wrapping token key","@module":"core","@timestamp":"2025-12-21T20:12:25.720894Z"}
+{"@level":"info","@message":"successfully setup plugin runtime catalog","@module":"core","@timestamp":"2025-12-21T20:12:25.720961Z"}
+{"@level":"info","@message":"successfully setup plugin catalog","@module":"core","@timestamp":"2025-12-21T20:12:25.721432Z","plugin-directory":""}
+{"@level":"info","@message":"no mounts; adding default mount table","@module":"core","@timestamp":"2025-12-21T20:12:25.721936Z"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:12:25.732187Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"cubbyhole/","type":"cubbyhole","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:12:25.734741Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"sys/","type":"system","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:12:25.737294Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"identity/","type":"identity","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:12:25.769312Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"token/","type":"token","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"Starting the rollback manager with 256 workers","@module":"rollback","@timestamp":"2025-12-21T20:12:25.772912Z"}
+{"@level":"info","@message":"starting rollback manager","@module":"rollback","@timestamp":"2025-12-21T20:12:25.773911Z"}
+{"@level":"info","@message":"restoring leases","@module":"core","@timestamp":"2025-12-21T20:12:25.775327Z"}
+{"@level":"info","@message":"lease restore complete","@module":"expiration","@timestamp":"2025-12-21T20:12:25.777887Z"}
+{"@level":"info","@message":"entities restored","@module":"identity","@timestamp":"2025-12-21T20:12:25.784284Z"}
+{"@level":"info","@message":"groups restored","@module":"identity","@timestamp":"2025-12-21T20:12:25.784404Z"}
+{"@level":"info","@message":"Recorded vault version","@module":"core","@timestamp":"2025-12-21T20:12:25.791821Z","build date":"2025-11-18T13:04:32Z","upgrade time":"2025-12-21T20:12:25.785261689Z","vault version":"1.21.1"}
+{"@level":"info","@message":"post-unseal setup complete","@module":"core","@timestamp":"2025-12-21T20:12:25.804635Z"}
+{"@level":"info","@message":"root token generated","@module":"core","@timestamp":"2025-12-21T20:12:25.818906Z"}
+{"@level":"info","@message":"pre-seal teardown starting","@module":"core","@timestamp":"2025-12-21T20:12:25.860528Z"}
+{"@level":"info","@message":"stopping raft active node","@module":"core","@timestamp":"2025-12-21T20:12:25.860659Z"}
+{"@level":"info","@message":"stopping rollback manager","@module":"rollback","@timestamp":"2025-12-21T20:12:25.861058Z"}
+{"@level":"info","@message":"pre-seal teardown complete","@module":"core","@timestamp":"2025-12-21T20:12:25.863417Z"}
+{"@level":"info","@message":"starting listener","@module":"core.cluster-listener.tcp","@timestamp":"2025-12-21T20:12:42.777072Z","listener_address":{"IP":"0.0.0.0","Port":8201,"Zone":""}}
+{"@level":"info","@message":"serving cluster requests","@module":"core.cluster-listener","@timestamp":"2025-12-21T20:12:42.777416Z","cluster_listen_address":{"IP":"::","Port":8201,"Zone":""}}
+{"@level":"info","@message":"creating Raft","@module":"storage.raft","@timestamp":"2025-12-21T20:12:42.777865Z","config":"\u0026raft.Config{ProtocolVersion:3, HeartbeatTimeout:15000000000, ElectionTimeout:15000000000, CommitTimeout:50000000, MaxAppendEntries:64, BatchApplyCh:true, ShutdownOnRemove:true, TrailingLogs:0x2800, SnapshotInterval:120000000000, SnapshotThreshold:0x2000, LeaderLeaseTimeout:2500000000, LocalID:\"node1\", NotifyCh:(chan\u003c- bool)(0xc000536000), LogOutput:io.Writer(nil), LogLevel:\"DEBUG\", Logger:(*hclog.interceptLogger)(0xc00119fb30), NoSnapshotRestoreOnStart:true, PreVoteDisabled:false, NoLegacyTelemetry:false, skipStartup:false}"}
+{"@level":"info","@message":"initial configuration","@module":"storage.raft","@timestamp":"2025-12-21T20:12:42.779407Z","index":1,"servers":"[{Suffrage:Voter ID:node1 Address:127.0.0.1:8201}]"}
+{"@level":"info","@message":"entering follower state","@module":"storage.raft","@timestamp":"2025-12-21T20:12:42.779513Z","follower":{},"leader-address":"","leader-id":""}
+{"@level":"warn","@message":"heartbeat timeout reached, starting election","@module":"storage.raft","@timestamp":"2025-12-21T20:12:42.779672Z","last-leader-addr":"","last-leader-id":""}
+{"@level":"info","@message":"entering candidate state","@module":"storage.raft","@timestamp":"2025-12-21T20:12:42.779705Z","node":{},"term":3}
+{"@level":"info","@message":"pre-vote successful, starting election","@module":"storage.raft","@timestamp":"2025-12-21T20:12:42.779733Z","refused":0,"tally":1,"term":3,"votesNeeded":1}
+{"@level":"info","@message":"entering standby mode","@module":"core","@timestamp":"2025-12-21T20:12:42.779627Z"}
+{"@level":"info","@message":"vault is unsealed","@module":"core","@timestamp":"2025-12-21T20:12:42.779600Z"}
+{"@level":"info","@message":"election won","@module":"storage.raft","@timestamp":"2025-12-21T20:12:42.783905Z","tally":1,"term":3}
+{"@level":"info","@message":"entering leader state","@module":"storage.raft","@timestamp":"2025-12-21T20:12:42.783984Z","leader":{}}
+{"@level":"info","@message":"acquired lock, enabling active operation","@module":"core","@timestamp":"2025-12-21T20:12:42.791462Z"}
+{"@level":"info","@message":"post-unseal setup starting","@module":"core","@timestamp":"2025-12-21T20:12:42.799765Z"}
+{"@level":"info","@message":"loaded wrapping token key","@module":"core","@timestamp":"2025-12-21T20:12:42.803711Z"}
+{"@level":"info","@message":"successfully setup plugin runtime catalog","@module":"core","@timestamp":"2025-12-21T20:12:42.803803Z"}
+{"@level":"info","@message":"successfully setup plugin catalog","@module":"core","@timestamp":"2025-12-21T20:12:42.803875Z","plugin-directory":""}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:12:42.805011Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"sys/","type":"system","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:12:42.806261Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"identity/","type":"identity","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:12:42.806435Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"cubbyhole/","type":"cubbyhole","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-21T20:12:42.807676Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"token/","type":"token","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"Starting the rollback manager with 256 workers","@module":"rollback","@timestamp":"2025-12-21T20:12:42.807920Z"}
+{"@level":"info","@message":"starting rollback manager","@module":"rollback","@timestamp":"2025-12-21T20:12:42.808024Z"}
+{"@level":"info","@message":"restoring leases","@module":"core","@timestamp":"2025-12-21T20:12:42.808279Z"}
+{"@level":"info","@message":"lease restore complete","@module":"expiration","@timestamp":"2025-12-21T20:12:42.808605Z"}
+{"@level":"info","@message":"entities restored","@module":"identity","@timestamp":"2025-12-21T20:12:42.809214Z"}
+{"@level":"info","@message":"groups restored","@module":"identity","@timestamp":"2025-12-21T20:12:42.809284Z"}
+{"@level":"info","@message":"starting raft active node","@module":"core","@timestamp":"2025-12-21T20:12:42.809511Z"}
+{"@level":"info","@message":"starting autopilot","@module":"storage.raft","@timestamp":"2025-12-21T20:12:42.809938Z","config":{"cleanup_dead_servers":false,"cleanup_dead_servers_value":0,"dead_server_last_contact_threshold":"24h0m0s","disable_upgrade_migration":false,"last_contact_threshold":"10s","max_trailing_logs":1000,"min_quorum":0,"redundancy_zone_tag":"redundancy_zone","server_stabilization_time":"10s","upgrade_version_tag":"upgrade_version"}}
+{"@level":"info","@message":"post-unseal setup complete","@module":"core","@timestamp":"2025-12-21T20:12:42.814296Z"}
+{"@level":"info","@message":"enabled credential backend","@module":"core","@timestamp":"2025-12-21T20:12:52.790087Z","path":"userpass/","type":"userpass","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"enabled credential backend","@module":"core","@timestamp":"2025-12-21T20:12:52.846170Z","path":"approle/","type":"approle","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successful mount","@module":"core","@timestamp":"2025-12-21T20:12:52.901169Z","namespace":"","path":"secrets/","type":"kv","version":"v0.25.0+builtin"}
+{"@level":"info","@message":"enabled audit backend","@module":"core","@timestamp":"2025-12-21T20:12:52.957873Z","path":"file/","type":"file"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-21T20:13:30.952800Z"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-21T20:13:30.952919Z"}
+{"@level":"info","@message":"reloaded raft config","@module":"storage.raft","@timestamp":"2025-12-21T20:13:30.953023Z","settings":{"TrailingLogs":10240,"SnapshotInterval":120000000000,"SnapshotThreshold":8192,"HeartbeatTimeout":5000000000,"ElectionTimeout":5000000000}}
+{"@level":"info","@message":"reloading file audit backend","@module":"audit","@timestamp":"2025-12-21T20:13:30.953507Z","path":"file/"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-22T08:35:30.349544Z"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-22T08:35:30.350703Z"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-22T08:35:30.350748Z","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-22T08:35:30.375979Z","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-22T08:35:30.378096Z"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-22T08:35:30.378363Z"}
+{"@level":"info","@message":"security barrier not initialized","@module":"core","@timestamp":"2025-12-22T08:35:33.293361Z"}
+{"@level":"info","@message":"seal configuration missing, not initialized","@module":"core","@timestamp":"2025-12-22T08:35:33.293473Z"}
+{"@level":"info","@message":"security barrier not initialized","@module":"core","@timestamp":"2025-12-22T08:35:33.297612Z"}
+{"@level":"info","@message":"creating Raft","@module":"storage.raft","@timestamp":"2025-12-22T08:35:33.302540Z","config":"\u0026raft.Config{ProtocolVersion:3, HeartbeatTimeout:5000000000, ElectionTimeout:5000000000, CommitTimeout:50000000, MaxAppendEntries:64, BatchApplyCh:true, ShutdownOnRemove:true, TrailingLogs:0x2800, SnapshotInterval:120000000000, SnapshotThreshold:0x2000, LeaderLeaseTimeout:2500000000, LocalID:\"node1\", NotifyCh:(chan\u003c- bool)(0xc00094a800), LogOutput:io.Writer(nil), LogLevel:\"DEBUG\", Logger:(*hclog.interceptLogger)(0xc000951ef0), NoSnapshotRestoreOnStart:true, PreVoteDisabled:false, NoLegacyTelemetry:false, skipStartup:false}"}
+{"@level":"info","@message":"initial configuration","@module":"storage.raft","@timestamp":"2025-12-22T08:35:33.304562Z","index":1,"servers":"[{Suffrage:Voter ID:node1 Address:127.0.0.1:8201}]"}
+{"@level":"info","@message":"entering follower state","@module":"storage.raft","@timestamp":"2025-12-22T08:35:33.305964Z","follower":{},"leader-address":"","leader-id":""}
+{"@level":"warn","@message":"heartbeat timeout reached, starting election","@module":"storage.raft","@timestamp":"2025-12-22T08:35:43.001790Z","last-leader-addr":"","last-leader-id":""}
+{"@level":"info","@message":"entering candidate state","@module":"storage.raft","@timestamp":"2025-12-22T08:35:43.005020Z","node":{},"term":2}
+{"@level":"info","@message":"pre-vote successful, starting election","@module":"storage.raft","@timestamp":"2025-12-22T08:35:43.005211Z","refused":0,"tally":1,"term":2,"votesNeeded":1}
+{"@level":"info","@message":"election won","@module":"storage.raft","@timestamp":"2025-12-22T08:35:43.022935Z","tally":1,"term":2}
+{"@level":"info","@message":"entering leader state","@module":"storage.raft","@timestamp":"2025-12-22T08:35:43.023053Z","leader":{}}
+{"@level":"info","@message":"security barrier initialized","@module":"core","@timestamp":"2025-12-22T08:35:43.047542Z","shares":5,"stored":1,"threshold":3}
+{"@level":"info","@message":"post-unseal setup starting","@module":"core","@timestamp":"2025-12-22T08:35:43.086462Z"}
+{"@level":"info","@message":"loaded wrapping token key","@module":"core","@timestamp":"2025-12-22T08:35:43.094981Z"}
+{"@level":"info","@message":"successfully setup plugin runtime catalog","@module":"core","@timestamp":"2025-12-22T08:35:43.095045Z"}
+{"@level":"info","@message":"successfully setup plugin catalog","@module":"core","@timestamp":"2025-12-22T08:35:43.095235Z","plugin-directory":""}
+{"@level":"info","@message":"no mounts; adding default mount table","@module":"core","@timestamp":"2025-12-22T08:35:43.095327Z"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T08:35:43.108914Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"cubbyhole/","type":"cubbyhole","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T08:35:43.113761Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"sys/","type":"system","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T08:35:43.196415Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"identity/","type":"identity","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T08:35:43.229946Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"token/","type":"token","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"Starting the rollback manager with 256 workers","@module":"rollback","@timestamp":"2025-12-22T08:35:43.233003Z"}
+{"@level":"info","@message":"starting rollback manager","@module":"rollback","@timestamp":"2025-12-22T08:35:43.233927Z"}
+{"@level":"info","@message":"restoring leases","@module":"core","@timestamp":"2025-12-22T08:35:43.234364Z"}
+{"@level":"info","@message":"lease restore complete","@module":"expiration","@timestamp":"2025-12-22T08:35:43.234988Z"}
+{"@level":"info","@message":"entities restored","@module":"identity","@timestamp":"2025-12-22T08:35:43.242485Z"}
+{"@level":"info","@message":"groups restored","@module":"identity","@timestamp":"2025-12-22T08:35:43.242590Z"}
+{"@level":"info","@message":"Recorded vault version","@module":"core","@timestamp":"2025-12-22T08:35:43.248558Z","build date":"2025-11-18T13:04:32Z","upgrade time":"2025-12-22T08:35:43.242806742Z","vault version":"1.21.1"}
+{"@level":"info","@message":"post-unseal setup complete","@module":"core","@timestamp":"2025-12-22T08:35:43.259328Z"}
+{"@level":"info","@message":"root token generated","@module":"core","@timestamp":"2025-12-22T08:35:43.270224Z"}
+{"@level":"info","@message":"pre-seal teardown starting","@module":"core","@timestamp":"2025-12-22T08:35:43.281690Z"}
+{"@level":"info","@message":"stopping raft active node","@module":"core","@timestamp":"2025-12-22T08:35:43.281755Z"}
+{"@level":"info","@message":"stopping rollback manager","@module":"rollback","@timestamp":"2025-12-22T08:35:43.281863Z"}
+{"@level":"info","@message":"pre-seal teardown complete","@module":"core","@timestamp":"2025-12-22T08:35:43.282001Z"}
+{"@level":"info","@message":"starting listener","@module":"core.cluster-listener.tcp","@timestamp":"2025-12-22T08:36:04.529103Z","listener_address":{"IP":"0.0.0.0","Port":8201,"Zone":""}}
+{"@level":"info","@message":"serving cluster requests","@module":"core.cluster-listener","@timestamp":"2025-12-22T08:36:04.531161Z","cluster_listen_address":{"IP":"::","Port":8201,"Zone":""}}
+{"@level":"info","@message":"creating Raft","@module":"storage.raft","@timestamp":"2025-12-22T08:36:04.531542Z","config":"\u0026raft.Config{ProtocolVersion:3, HeartbeatTimeout:15000000000, ElectionTimeout:15000000000, CommitTimeout:50000000, MaxAppendEntries:64, BatchApplyCh:true, ShutdownOnRemove:true, TrailingLogs:0x2800, SnapshotInterval:120000000000, SnapshotThreshold:0x2000, LeaderLeaseTimeout:2500000000, LocalID:\"node1\", NotifyCh:(chan\u003c- bool)(0xc00094a780), LogOutput:io.Writer(nil), LogLevel:\"DEBUG\", Logger:(*hclog.interceptLogger)(0xc000951ef0), NoSnapshotRestoreOnStart:true, PreVoteDisabled:false, NoLegacyTelemetry:false, skipStartup:false}"}
+{"@level":"info","@message":"initial configuration","@module":"storage.raft","@timestamp":"2025-12-22T08:36:04.533812Z","index":1,"servers":"[{Suffrage:Voter ID:node1 Address:127.0.0.1:8201}]"}
+{"@level":"info","@message":"entering follower state","@module":"storage.raft","@timestamp":"2025-12-22T08:36:04.533977Z","follower":{},"leader-address":"","leader-id":""}
+{"@level":"warn","@message":"heartbeat timeout reached, starting election","@module":"storage.raft","@timestamp":"2025-12-22T08:36:04.534077Z","last-leader-addr":"","last-leader-id":""}
+{"@level":"info","@message":"entering candidate state","@module":"storage.raft","@timestamp":"2025-12-22T08:36:04.534104Z","node":{},"term":3}
+{"@level":"info","@message":"pre-vote successful, starting election","@module":"storage.raft","@timestamp":"2025-12-22T08:36:04.534140Z","refused":0,"tally":1,"term":3,"votesNeeded":1}
+{"@level":"info","@message":"vault is unsealed","@module":"core","@timestamp":"2025-12-22T08:36:04.533995Z"}
+{"@level":"info","@message":"entering standby mode","@module":"core","@timestamp":"2025-12-22T08:36:04.533997Z"}
+{"@level":"info","@message":"election won","@module":"storage.raft","@timestamp":"2025-12-22T08:36:04.540010Z","tally":1,"term":3}
+{"@level":"info","@message":"entering leader state","@module":"storage.raft","@timestamp":"2025-12-22T08:36:04.540082Z","leader":{}}
+{"@level":"info","@message":"acquired lock, enabling active operation","@module":"core","@timestamp":"2025-12-22T08:36:04.548456Z"}
+{"@level":"info","@message":"post-unseal setup starting","@module":"core","@timestamp":"2025-12-22T08:36:04.560472Z"}
+{"@level":"info","@message":"loaded wrapping token key","@module":"core","@timestamp":"2025-12-22T08:36:04.564548Z"}
+{"@level":"info","@message":"successfully setup plugin runtime catalog","@module":"core","@timestamp":"2025-12-22T08:36:04.564615Z"}
+{"@level":"info","@message":"successfully setup plugin catalog","@module":"core","@timestamp":"2025-12-22T08:36:04.564665Z","plugin-directory":""}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T08:36:04.565871Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"sys/","type":"system","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T08:36:04.566324Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"identity/","type":"identity","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T08:36:04.566440Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"cubbyhole/","type":"cubbyhole","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T08:36:04.567566Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"token/","type":"token","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"Starting the rollback manager with 256 workers","@module":"rollback","@timestamp":"2025-12-22T08:36:04.567790Z"}
+{"@level":"info","@message":"starting rollback manager","@module":"rollback","@timestamp":"2025-12-22T08:36:04.567915Z"}
+{"@level":"info","@message":"restoring leases","@module":"core","@timestamp":"2025-12-22T08:36:04.568023Z"}
+{"@level":"info","@message":"entities restored","@module":"identity","@timestamp":"2025-12-22T08:36:04.568819Z"}
+{"@level":"info","@message":"lease restore complete","@module":"expiration","@timestamp":"2025-12-22T08:36:04.568870Z"}
+{"@level":"info","@message":"groups restored","@module":"identity","@timestamp":"2025-12-22T08:36:04.568888Z"}
+{"@level":"info","@message":"starting raft active node","@module":"core","@timestamp":"2025-12-22T08:36:04.569138Z"}
+{"@level":"info","@message":"starting autopilot","@module":"storage.raft","@timestamp":"2025-12-22T08:36:04.569385Z","config":{"cleanup_dead_servers":false,"cleanup_dead_servers_value":0,"dead_server_last_contact_threshold":"24h0m0s","disable_upgrade_migration":false,"last_contact_threshold":"10s","max_trailing_logs":1000,"min_quorum":0,"redundancy_zone_tag":"redundancy_zone","server_stabilization_time":"10s","upgrade_version_tag":"upgrade_version"}}
+{"@level":"info","@message":"post-unseal setup complete","@module":"core","@timestamp":"2025-12-22T08:36:04.575425Z"}
+{"@level":"info","@message":"enabled credential backend","@module":"core","@timestamp":"2025-12-22T08:36:11.431214Z","path":"userpass/","type":"userpass","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"enabled credential backend","@module":"core","@timestamp":"2025-12-22T08:36:11.484330Z","path":"approle/","type":"approle","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successful mount","@module":"core","@timestamp":"2025-12-22T08:36:11.536546Z","namespace":"","path":"secrets/","type":"kv","version":"v0.25.0+builtin"}
+{"@level":"info","@message":"enabled audit backend","@module":"core","@timestamp":"2025-12-22T08:36:11.598570Z","path":"file/","type":"file"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-22T08:40:05.125649Z"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-22T08:40:05.129797Z"}
+{"@level":"info","@message":"reloaded raft config","@module":"storage.raft","@timestamp":"2025-12-22T08:40:05.130657Z","settings":{"TrailingLogs":10240,"SnapshotInterval":120000000000,"SnapshotThreshold":8192,"HeartbeatTimeout":5000000000,"ElectionTimeout":5000000000}}
+{"@level":"info","@message":"reloading file audit backend","@module":"audit","@timestamp":"2025-12-22T08:40:05.135222Z","path":"file/"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-22T09:10:15.199170Z"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-22T09:10:15.199628Z"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-22T09:10:15.199661Z","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-22T09:10:15.221861Z","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-22T09:10:15.223358Z"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-22T09:10:15.223667Z"}
+{"@level":"info","@message":"starting listener","@module":"core.cluster-listener.tcp","@timestamp":"2025-12-22T09:15:00.712431Z","listener_address":{"IP":"0.0.0.0","Port":8201,"Zone":""}}
+{"@level":"info","@message":"serving cluster requests","@module":"core.cluster-listener","@timestamp":"2025-12-22T09:15:00.712674Z","cluster_listen_address":{"IP":"::","Port":8201,"Zone":""}}
+{"@level":"info","@message":"creating Raft","@module":"storage.raft","@timestamp":"2025-12-22T09:15:00.713109Z","config":"\u0026raft.Config{ProtocolVersion:3, HeartbeatTimeout:15000000000, ElectionTimeout:15000000000, CommitTimeout:50000000, MaxAppendEntries:64, BatchApplyCh:true, ShutdownOnRemove:true, TrailingLogs:0x2800, SnapshotInterval:120000000000, SnapshotThreshold:0x2000, LeaderLeaseTimeout:2500000000, LocalID:\"node1\", NotifyCh:(chan\u003c- bool)(0xc000369600), LogOutput:io.Writer(nil), LogLevel:\"DEBUG\", Logger:(*hclog.interceptLogger)(0xc001032f30), NoSnapshotRestoreOnStart:true, PreVoteDisabled:false, NoLegacyTelemetry:false, skipStartup:false}"}
+{"@level":"info","@message":"initial configuration","@module":"storage.raft","@timestamp":"2025-12-22T09:15:00.714923Z","index":1,"servers":"[{Suffrage:Voter ID:node1 Address:127.0.0.1:8201}]"}
+{"@level":"info","@message":"entering follower state","@module":"storage.raft","@timestamp":"2025-12-22T09:15:00.715214Z","follower":{},"leader-address":"","leader-id":""}
+{"@level":"warn","@message":"heartbeat timeout reached, starting election","@module":"storage.raft","@timestamp":"2025-12-22T09:15:00.715642Z","last-leader-addr":"","last-leader-id":""}
+{"@level":"info","@message":"entering candidate state","@module":"storage.raft","@timestamp":"2025-12-22T09:15:00.715675Z","node":{},"term":4}
+{"@level":"info","@message":"pre-vote successful, starting election","@module":"storage.raft","@timestamp":"2025-12-22T09:15:00.715695Z","refused":0,"tally":1,"term":4,"votesNeeded":1}
+{"@level":"info","@message":"vault is unsealed","@module":"core","@timestamp":"2025-12-22T09:15:00.715887Z"}
+{"@level":"info","@message":"entering standby mode","@module":"core","@timestamp":"2025-12-22T09:15:00.715964Z"}
+{"@level":"info","@message":"election won","@module":"storage.raft","@timestamp":"2025-12-22T09:15:00.719709Z","tally":1,"term":4}
+{"@level":"info","@message":"entering leader state","@module":"storage.raft","@timestamp":"2025-12-22T09:15:00.719751Z","leader":{}}
+{"@level":"info","@message":"acquired lock, enabling active operation","@module":"core","@timestamp":"2025-12-22T09:15:00.725443Z"}
+{"@level":"info","@message":"post-unseal setup starting","@module":"core","@timestamp":"2025-12-22T09:15:00.740647Z"}
+{"@level":"info","@message":"loaded wrapping token key","@module":"core","@timestamp":"2025-12-22T09:15:00.744869Z"}
+{"@level":"info","@message":"successfully setup plugin runtime catalog","@module":"core","@timestamp":"2025-12-22T09:15:00.744899Z"}
+{"@level":"info","@message":"successfully setup plugin catalog","@module":"core","@timestamp":"2025-12-22T09:15:00.744924Z","plugin-directory":""}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T09:15:00.747638Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"sys/","type":"system","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T09:15:00.749056Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"identity/","type":"identity","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T09:15:00.749614Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"secrets/","type":"kv","version":"v0.25.0+builtin"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T09:15:00.749717Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"cubbyhole/","type":"cubbyhole","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T09:15:00.750974Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"token/","type":"token","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T09:15:00.751057Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"userpass/","type":"userpass","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T09:15:00.751453Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"approle/","type":"approle","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"Starting the rollback manager with 256 workers","@module":"rollback","@timestamp":"2025-12-22T09:15:00.751875Z"}
+{"@level":"info","@message":"starting rollback manager","@module":"rollback","@timestamp":"2025-12-22T09:15:00.752045Z"}
+{"@level":"info","@message":"restoring leases","@module":"core","@timestamp":"2025-12-22T09:15:00.752245Z"}
+{"@level":"info","@message":"entities restored","@module":"identity","@timestamp":"2025-12-22T09:15:00.752716Z"}
+{"@level":"info","@message":"groups restored","@module":"identity","@timestamp":"2025-12-22T09:15:00.752752Z"}
+{"@level":"info","@message":"lease restore complete","@module":"expiration","@timestamp":"2025-12-22T09:15:00.752804Z"}
+{"@level":"info","@message":"starting raft active node","@module":"core","@timestamp":"2025-12-22T09:15:00.752902Z"}
+{"@level":"info","@message":"starting autopilot","@module":"storage.raft","@timestamp":"2025-12-22T09:15:00.753156Z","config":{"cleanup_dead_servers":false,"cleanup_dead_servers_value":0,"dead_server_last_contact_threshold":"24h0m0s","disable_upgrade_migration":false,"last_contact_threshold":"10s","max_trailing_logs":1000,"min_quorum":0,"redundancy_zone_tag":"redundancy_zone","server_stabilization_time":"10s","upgrade_version_tag":"upgrade_version"}}
+{"@level":"info","@message":"post-unseal setup complete","@module":"core","@timestamp":"2025-12-22T09:15:00.754716Z"}
+{"@level":"warn","@message":"unknown or unsupported field unauthenticated_metrics_access found in configuration at ./configs/telemetry.hcl:4:3","@timestamp":"2025-12-22T10:01:58.152463Z"}
+{"@level":"warn","@message":"unknown or unsupported field enable_high_cardinality_metrics found in configuration at ./configs/telemetry.hcl:10:3","@timestamp":"2025-12-22T10:01:58.153599Z"}
+{"@level":"info","@message":"proxy environment","@timestamp":"2025-12-22T10:01:58.153621Z","http_proxy":"","https_proxy":"","no_proxy":""}
+{"@level":"info","@message":"incrementing seal generation","@timestamp":"2025-12-22T10:01:58.187381Z","generation":1}
+{"@level":"info","@message":"Initializing version history cache for core","@module":"core","@timestamp":"2025-12-22T10:01:58.195650Z"}
+{"@level":"info","@message":"Starting event system","@module":"events","@timestamp":"2025-12-22T10:01:58.196110Z"}
+{"@level":"info","@message":"starting listener","@module":"core.cluster-listener.tcp","@timestamp":"2025-12-22T11:28:25.074111Z","listener_address":{"IP":"0.0.0.0","Port":8201,"Zone":""}}
+{"@level":"info","@message":"serving cluster requests","@module":"core.cluster-listener","@timestamp":"2025-12-22T11:28:25.077919Z","cluster_listen_address":{"IP":"::","Port":8201,"Zone":""}}
+{"@level":"info","@message":"creating Raft","@module":"storage.raft","@timestamp":"2025-12-22T11:28:25.085644Z","config":"\u0026raft.Config{ProtocolVersion:3, HeartbeatTimeout:15000000000, ElectionTimeout:15000000000, CommitTimeout:50000000, MaxAppendEntries:64, BatchApplyCh:true, ShutdownOnRemove:true, TrailingLogs:0x2800, SnapshotInterval:120000000000, SnapshotThreshold:0x2000, LeaderLeaseTimeout:2500000000, LocalID:\"node1\", NotifyCh:(chan\u003c- bool)(0xc000610100), LogOutput:io.Writer(nil), LogLevel:\"DEBUG\", Logger:(*hclog.interceptLogger)(0xc000fa9620), NoSnapshotRestoreOnStart:true, PreVoteDisabled:false, NoLegacyTelemetry:false, skipStartup:false}"}
+{"@level":"info","@message":"initial configuration","@module":"storage.raft","@timestamp":"2025-12-22T11:28:25.092661Z","index":1,"servers":"[{Suffrage:Voter ID:node1 Address:127.0.0.1:8201}]"}
+{"@level":"info","@message":"entering follower state","@module":"storage.raft","@timestamp":"2025-12-22T11:28:25.093456Z","follower":{},"leader-address":"","leader-id":""}
+{"@level":"warn","@message":"heartbeat timeout reached, starting election","@module":"storage.raft","@timestamp":"2025-12-22T11:28:25.095566Z","last-leader-addr":"","last-leader-id":""}
+{"@level":"info","@message":"entering candidate state","@module":"storage.raft","@timestamp":"2025-12-22T11:28:25.095764Z","node":{},"term":5}
+{"@level":"info","@message":"pre-vote successful, starting election","@module":"storage.raft","@timestamp":"2025-12-22T11:28:25.095837Z","refused":0,"tally":1,"term":5,"votesNeeded":1}
+{"@level":"info","@message":"vault is unsealed","@module":"core","@timestamp":"2025-12-22T11:28:25.096135Z"}
+{"@level":"info","@message":"entering standby mode","@module":"core","@timestamp":"2025-12-22T11:28:25.096202Z"}
+{"@level":"info","@message":"election won","@module":"storage.raft","@timestamp":"2025-12-22T11:28:25.103996Z","tally":1,"term":5}
+{"@level":"info","@message":"entering leader state","@module":"storage.raft","@timestamp":"2025-12-22T11:28:25.104121Z","leader":{}}
+{"@level":"info","@message":"acquired lock, enabling active operation","@module":"core","@timestamp":"2025-12-22T11:28:25.132739Z"}
+{"@level":"info","@message":"post-unseal setup starting","@module":"core","@timestamp":"2025-12-22T11:28:25.171925Z"}
+{"@level":"info","@message":"loaded wrapping token key","@module":"core","@timestamp":"2025-12-22T11:28:25.180017Z"}
+{"@level":"info","@message":"successfully setup plugin runtime catalog","@module":"core","@timestamp":"2025-12-22T11:28:25.180147Z"}
+{"@level":"info","@message":"successfully setup plugin catalog","@module":"core","@timestamp":"2025-12-22T11:28:25.180919Z","plugin-directory":""}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T11:28:25.199031Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"sys/","type":"system","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T11:28:25.202976Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"identity/","type":"identity","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T11:28:25.205343Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"secrets/","type":"kv","version":"v0.25.0+builtin"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T11:28:25.205538Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"cubbyhole/","type":"cubbyhole","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T11:28:25.209977Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"token/","type":"token","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T11:28:25.210967Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"userpass/","type":"userpass","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"successfully mounted","@module":"core","@timestamp":"2025-12-22T11:28:25.213609Z","namespace":{"id":"root","path":"","custom_metadata":{}},"path":"approle/","type":"approle","version":"v1.21.1+builtin.vault"}
+{"@level":"info","@message":"Starting the rollback manager with 256 workers","@module":"rollback","@timestamp":"2025-12-22T11:28:25.215803Z"}
+{"@level":"info","@message":"starting rollback manager","@module":"rollback","@timestamp":"2025-12-22T11:28:25.216831Z"}
+{"@level":"info","@message":"restoring leases","@module":"core","@timestamp":"2025-12-22T11:28:25.218153Z"}
+{"@level":"info","@message":"lease restore complete","@module":"expiration","@timestamp":"2025-12-22T11:28:25.219563Z"}
+{"@level":"info","@message":"entities restored","@module":"identity","@timestamp":"2025-12-22T11:28:25.223196Z"}
+{"@level":"info","@message":"groups restored","@module":"identity","@timestamp":"2025-12-22T11:28:25.223363Z"}
+{"@level":"info","@message":"starting raft active node","@module":"core","@timestamp":"2025-12-22T11:28:25.224379Z"}
+{"@level":"info","@message":"starting autopilot","@module":"storage.raft","@timestamp":"2025-12-22T11:28:25.225090Z","config":{"cleanup_dead_servers":false,"cleanup_dead_servers_value":0,"dead_server_last_contact_threshold":"24h0m0s","disable_upgrade_migration":false,"last_contact_threshold":"10s","max_trailing_logs":1000,"min_quorum":0,"redundancy_zone_tag":"redundancy_zone","server_stabilization_time":"10s","upgrade_version_tag":"upgrade_version"}}
+{"@level":"info","@message":"post-unseal setup complete","@module":"core","@timestamp":"2025-12-22T11:28:25.229318Z"}

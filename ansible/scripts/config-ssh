@@ -1,9 +1,0 @@
-Host server1-bootstrap
-  HostName 85.117.234.244
-  User root
-  IdentityFile ~/.ssh/root_id_rsa
-
-Host server1-prod
-  HostName 85.117.234.244
-  User ansible
-  IdentityFile ~/.ssh/ansible_id_rsa

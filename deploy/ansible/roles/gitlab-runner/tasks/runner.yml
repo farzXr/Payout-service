@@ -1,0 +1,38 @@
+    - name: Get id project
+      uri:
+        url: "https://gitlab.com/api/v4/projects/{{gitlab_project_slug}}"
+        method: GET
+        headers:
+          PRIVATE-TOKEN: "{{ gitlab_access_token }}"
+      register: project_info
+
+    - name: Extract id project
+      set_fact:
+        project_id: "{{ project_info.json.id }}"
+      no_log: true
+
+    - name: Create new runner via API (returns glrt- token)
+      uri:
+        url: "https://gitlab.com/api/v4/user/runners"
+        method: POST
+        headers:
+          PRIVATE-TOKEN: "{{ gitlab_access_token }}"
+        body_format: json
+        body:
+          runner_type: "project_type"
+          description: "auto-runner-{{ ansible_date_time.epoch }}"
+          tag_list: []
+          run_untagged: true
+          locked: false
+          project_id: "{{ project_id }}"
+        status_code: 201
+        validate_certs: yes
+      register: runner_creation
+      delegate_to: localhost
+      run_once: true
+      no_log: true
+
+    - name: Extract project-runner token
+      set_fact:
+        runner_token: "{{ runner_creation.json.token }}"
+      no_log: true

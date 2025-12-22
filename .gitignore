@@ -1,6 +1,8 @@
 .idea/
-./ansible/.vault_pass
-./ansible/group_vars/all/secrets.yml
-./ansible/group_vars/all/vars.yml
-./ansible/scripts/.env
-./vault/.git
+./deploy/ansible/.vault_pass
+./deploy/ansible/group_vars/all/*
+./deploy/ansible/scripts/.env
+./deploy/ansible/files/*
+./deploy/ansible/.vault_pass
+./deploy/vault/configs/tls/*
+./deploy/vault/data/*

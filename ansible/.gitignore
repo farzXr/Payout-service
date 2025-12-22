@@ -1,4 +1,0 @@
-.vault_pass
-./group_vars/all/secrets.yml
-./group_vars/all/vars.yml
-./scripts/.env

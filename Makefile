@@ -1,7 +1,7 @@
 .PHONY: help start stop restart clean logs test createsuperuser shell
 
-VAULT_DIR = ./vault
-ANSIBLE_DIR = ./ansible
+VAULT_DIR = ./deploy/vault
+ANSIBLE_DIR = ./deploy/ansible
 
 help:
 	@echo "Доступные команды:"
