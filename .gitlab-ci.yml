@@ -7,22 +7,18 @@ lint:
     - echo "Проверяем код линтерами..."
     - docker --version
   script:
-    - docker-compose -f docker-compose.test.yml up -d --build
+    - docker-compose -f docker-compose.test.yml up -d --build  --quiet-pull
+
     - sleep 15
 
-    # 1. Форматирование
     - docker exec app poetry run black .
     - docker exec app poetry run isort .
 
-    # 2. Проверка форматирования
     - docker exec app poetry run black --check .
 
-    # 3. Flake8 с ограниченными проверками (постепенно добавлять)
     - docker exec app poetry run flake8 .
-    # или
 
-    # 4. Mypy
-    - docker exec app poetry run mypy . || echo "mypy warnings"
+    - docker exec app poetry run mypy .
 
     - echo "✅ Проверки завершены"
   after_script:
