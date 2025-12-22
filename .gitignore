@@ -1,8 +1,19 @@
 .idea/
-./deploy/ansible/.vault_pass
-./deploy/ansible/group_vars/all/*
-./deploy/ansible/scripts/.env
-./deploy/ansible/files/*
-./deploy/ansible/.vault_pass
-./deploy/vault/configs/tls/*
-./deploy/vault/data/*
+
+# Ansible
+deploy/ansible/.vault_pass
+deploy/ansible/group_vars/all/
+deploy/ansible/scripts/.env
+deploy/ansible/files/
+
+# Vault
+deploy/vault/configs/tls/
+deploy/vault/data/
+deploy/vault/logs/
+
+*.log
+*.pem
+*.key
+*.crt
+*.db
+.DS_Store

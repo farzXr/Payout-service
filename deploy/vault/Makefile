@@ -52,7 +52,8 @@ first_login:
 	@read -p "Введите root token (он был показан выше в выводе): " ROOT_TOKEN && \
 	vault login $$ROOT_TOKEN
 
-enable_audit: ./logs/audit.log
+enable_audit:
+    mkdir -p ./logs/audit.log
 	vault audit enable file file_path=./logs/audit.log
 
 enable_auth:
@@ -79,7 +80,7 @@ write_user: ./scripts/write_user.sh
 	chmod +x ./scripts/write_user.sh
 	./scripts/write_user.sh
 
-setup: start_vault init_vault unseal_vault first_login enable_auth enable_secrets enable_audit write_policies write_approle set_secrets write_user
+setup: init_vault unseal_vault first_login enable_auth enable_secrets enable_audit write_policies write_approle set_secrets write_user
 	@echo "Настройка Vault завершена!"
 
 default: setup
