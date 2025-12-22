@@ -18,9 +18,8 @@ lint:
     - docker exec app poetry run black --check .
 
     # 3. Flake8 с ограниченными проверками (постепенно добавлять)
-    - docker exec app poetry run flake8 . --select=E9,F63,F7,F82  # только критические ошибки
+    - docker exec app poetry run flake8 .
     # или
-    - docker exec app poetry run flake8 . --max-line-length=120 --ignore=F401
 
     # 4. Mypy
     - docker exec app poetry run mypy . || echo "mypy warnings"
