@@ -1,58 +1,53 @@
 # Deploy проекта payout-service на production
 
-Изначально я хотел использовать ansible, но я его только начал изучать, поэтому моих компетенций не хватило чтобы создать корректный playbook для скачивания всех зависимостей и role для поднятия gitlab-runner на prod, и я отказался от этой идеи. Поэтому будем делать по старинке - всё руками(
+1. Я использовал ansible для подготовки целевого сервера к развёртыванию на нём payout-service и cicd.
 
-1. На dev-сервере создаём ssh ключ для подключения в prod-серверу без пароля
+2. Для секретов использовал HahsiCorp Vault (пароль от целевого сервера/access-token от gitlab/...).
+
+3. Я организовал их docker-compose для удобства переносимости этой системы автоматизированного развёртывания.
+
+## Всё очень просто
+
+- Для запуска подготовки целевого сервера к развёртыванию
 ```commandline
-ssh-keygen -t ed25519
-```
-2. Прокидываем его на prod-сервер, здесь нам нужен пароль от прода
-```commandline
-ssh-copy-id username@host
-```
-3. Подключаемся
-```commandline
-ssh username@host
+make deploy
 ```
 
-4. Добавляем нашего пользователя в sudo, что не писать каждый раз пароль
+- Для перенастройки целевого сервера
 ```commandline
-sudo visudo
-#Добавляем в конец файла
-username ALL=(ALL) NOPASSWD: ALL
+make reset_deploy
 ```
 
-5.Качаем git и docker, docker-compose
+## make deploy
+
+Необходимо будет:
+
+### setup vault
+1. Разблокировать после запуска vault тремя ключами (они будут в терминале, чуть выше просьбы ввода)
+2. Авторизироваться в vault под root для начальной настройки (токен будет в том же месте, где и ключи для разлока)
 ```commandline
-1. sudo apt update -y
-2. sudo apt install git -y
-3.curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu noble stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt update
-sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+# Так выглядят ключи и токен
+
+Unseal Key 1: nbUCl/9XQvr/YYxrLTShQQFQ0A4AW3Wqjrbusr2x8f4u
+Unseal Key 2: cSb3/rr7mYEOuxtOKQAT2q1XlMqDMNEObZ5OAgS7JpJj
+Unseal Key 3: AQRtexcZ84tftbmQSax46zWWM6HifrAqhRwdUpK2jxhJ
+Unseal Key 4: PCaRIwJZSnCDDBMfsSXbxkjlEY1hqreC4czLBR/SmTAZ
+Unseal Key 5: +PrI5saLQiARGA1PdZxhsaCggdkK0cvUSeatb5zoK59p
+
+Initial Root Token: hvs.FPSrL8m2FaQ4YwKpwAcYSpyI
 ```
+3. Ввести ssh пароль от root от целевого сервера
+4. Ввести access token gitlab-аккаунта с правами api (необходимо в последующем для создания токенов для gitlab-runner)
+5. Далее необходимо будет создать пользователя для последующей авторизации vault
 
-6. Клонируем репозиторий (удалённым репозиторием должен быть именно gitlab по https://gitlab.com, так gitlab-runner в ci/cd настроен)
-```commandline
-git clone <repo_url>
-cd payout-service
-```
+### setup ansible
 
-7. На gitlab получаем токен для cicd, создаем в проде .env в ./gitlab-runner и вставляем его туда 
-```commandline
-RUNNER_TOKEN=you-token
-```
+1. Ввести значение для gitlab_project_slug (у вас должен быть удалённый репозиторий с этим проектом на gitlab)
+2. Ввести пароль для ansible-vault (можно не запоминать)
+3. Ввести ip целевого сервера
 
-8. Поднимаем заранее настроенный gitlab-runner
-```commandline
-cd gitlab-runner
-docker compose up -d --build
-```
+Всё готово! Теперь можно пушить свой проект на удалённый репозиторий gitlab и он автоматически будет разворачиваться на целевом сервере.
 
-9. А дальше курим бамбук и всё отлаживаем)
+## Результаты
 
-
-ps.
-gitlab-ci не отлажен, также как и gitlab-runner, я их просто написал для деплоя "на словах" как я их вижу
-
-
+На целевом сервере были установлены все необходимые зависимости и развёрнут gitlab-runner с привязкой к проекту. То есть теперь ты можешь пушить свои изменения удалённый репозиторий с этим проектом на gitlab и он автоматически будет разворачиваться и проходить конвейер ci.

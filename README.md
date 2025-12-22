@@ -13,6 +13,11 @@ REST API сервис для управления заявками на выпл
 - Docker + Docker Compose
 
 
+## Prod - Читать DEPLOY.md
+```commandline
+make deploy
+```
+
 # Быстрый запуск с Docker
 ## Предварительные требования
 
