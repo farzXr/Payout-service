@@ -1,6 +1,7 @@
 stages:
   - lint
   - test
+  - deploy
 
 lint:
   stage: lint
@@ -36,8 +37,18 @@ test:
     - docker exec app poetry run python manage.py test payouts
   after_script:
     - docker-compose -f docker-compose.test.yml down
-  artifacts:
-    when: always
-    paths:
-      - test-reports/
-    expire_in: 1 week
+
+deploy:
+  stage: deploy
+  needs: ["test"]
+  script:
+    - echo "Тесты прошли, деплоим продакшен..."
+
+    - docker-compose -f docker-compose.yml down --remove-orphans
+    - docker-compose -f docker-compose.yml up -d --build > /dev/null 2>&1
+
+    - sleep 10
+    - docker-compose -f docker-compose.yml ps
+    - echo "Деплой успешно завершен!"
+  only:
+    - master
